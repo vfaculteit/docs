@@ -1,51 +1,51 @@
-# Interface Overview
+# Overzicht van de interface
 
-Now that you have Actual installed, you are going to be itching to get using it, this section of the documentation shows how to use the Actual application and what each part does.
+Nu u Consumeer Bewust hebt geïnstalleerd, wilt u het graag gaan gebruiken. Dit gedeelte van de documentatie laat zien hoe u de Consumeer Bewust applicatie gebruikt en wat elk onderdeel doet.
 
-## The Interface
+## De interface
 
-The Actual interface is simple but powerful at the same time, if you are new to the application this page will explain what each part of the interface does.
+De interface van Consumeer Bewust is eenvoudig maar tegelijkertijd krachtig. Als u nieuw bent met de applicatie, zal deze pagina uitleggen wat elk onderdeel van de interface doet.
 
 ![](/img/using-actual/budget-main.png)
 
-### Months To Show
+### Maanden om te tonen
 
-It is possible to show more than one month on the budget, to do this select the amount of calendars you would like months to show, for example, if you select three calendars, three months will show on the budget, the current month and two month's in the future. By default, only one month (the current) will show.
+Het is mogelijk om meer dan één maand op het budget te tonen, om dit te doen selecteert u het aantal kalenders dat u maanden wilt tonen, bijvoorbeeld, als u drie kalenders selecteert, zullen drie maanden op het budget worden getoond, de huidige maand en twee maanden in de toekomst. Standaard wordt slechts één maand (de huidige) getoond.
 
 ![](/img/using-actual/budget-month-selector.png)
 
-### Sync Status
+### Synchronisatiestatus
 
-This shows the sync status of your budget, this will display an error if the Sync Status is not functioning.
+Dit toont de synchronisatiestatus van uw budget, dit zal een foutmelding weergeven als de synchronisatiestatus niet functioneert.
 
 ![](/img/using-actual/budget-sync-status.png)
 
-### Month Selector
+### Maandselector
 
-You are able to select the current month by selecting it from the Month Selector, this allows you to move back and forward through your budget.
+U kunt de huidige maand selecteren door deze te selecteren uit de Maandselector, dit stelt u in staat om heen en weer te gaan door uw budget.
 
 ![](/img/using-actual/budget-months.png)
 
-### Selected Month Overview
+### Geselecteerde Maand Overzicht
 
-This gives an overview of the current month from available funds, budgeted amount and more.
+Dit geeft een overzicht van de huidige maand van beschikbare fondsen, gebudgetteerd bedrag en meer.
 
 ![](/img/using-actual/budget-month-overview.png)
 
-### Budget List
+### Budgetlijst
 
-This is your budget, this is where all your category groups and category headings will show, this is also where you budget your money against these categories.
+Dit is uw budget, hier zullen al uw categorie groepen en categorie koppen worden getoond, dit is ook waar u uw geld budgetteert tegen deze categorieën.
 
 ![](/img/using-actual/budget-list.png)
 
-### Category Group Heading
+### Kop van Categorie Groep
 
-This is the category group heading, each collection of categories has a heading, for example if you had **long term savings** you could create a group heading called **long term savings** then within that you could have **Holiday** or **Car** you can find out how to add a category group [here](../budgeting/categories.md#adding-a-category-group)
+Dit is de kop van de categorie groep, elke verzameling van categorieën heeft een kop, bijvoorbeeld als u **langetermijnsparen** had, kon u een groepskop maken met de naam **langetermijnsparen** en daarin zou u **Vakantie** of **Auto** kunnen hebben. U kunt hier vinden hoe u een categorie groep toevoegt [hier](../budgeting/categories.md#adding-a-category-group)
 
 ![](/img/using-actual/budget-category-heading.png)
 
-### Category Heading
+### Categorie Kop
 
-The category headings are the headings for each individual item in the budget, if we take the examples above, these might be **Holiday** or **Car** you can find out how to add a category [here](../budgeting/categories.md#add-a-category)
+De categorie koppen zijn de koppen voor elk individueel item in het budget, als we de bovenstaande voorbeelden nemen, kunnen dit **Vakantie** of **Auto** zijn. U kunt hier vinden hoe u een categorie toevoegt [hier](../budgeting/categories.md#add-a-category)
 
 ![](/img/using-actual/budget-category.png)

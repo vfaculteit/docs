@@ -1,15 +1,15 @@
 ---
 slug: /
 sidebar_position: 1
-title: 'Introduction'
+title: 'Inleiding'
 ---
 
-Welcome to Actual’s documentation! Here you will find everything you need to know about Actual Budget (hopefully). If you see something missing, feel free to reach out to us (or, even better, click the “Edit this page” link at the bottom of any page to add any missing information yourself).
+Welkom bij de documentatie van Consumeer Bewust! Hier vindt u (hopelijk) alles wat u moet weten over Consumeer Bewust. Als u iets mist, neem dan gerust contact met ons op.
 
-## What should I read first?
+## Wat moet ik eerst lezen?
 
-If you’re completely new to Actual, you’ll need to [install](./install/index.md) it before you can use it. Once you’ve done that, check out the [Tour of Actual](./tour/index.md) for a high-level overview of how Actual works. Then come back later to dive into the more detailed documentation in the “Using Actual” section.
+Als u helemaal nieuw bent bij Consumeer Bewust, kan u de [Rondleiding door Consumeer Bewust](./tour/index.md) bekijken voor een overzicht van hoe Consumeer Bewust werkt. Kom later terug om dieper in te gaan op de meer gedetailleerde documentatie in de sectie "Gebruik van Consumeer Bewust".
 
-If you would just like to test things out, you can [download](/test-budget.zip) the test budget and [import](./migration/actual-import.md) it into Actual
+Als u gewoon dingen wilt testen, kunt u het testbudget [downloaden](/test-budget.zip) en importeren in Consumeer Bewust
 
-If you ever get stuck, don’t hesitate to [reach out to the maintainers and community](/contact) for help.
+Als u ooit vastloopt, aarzel dan niet om [contact op te nemen met de onderhouders en de gemeenschap](/contact) voor hulp.

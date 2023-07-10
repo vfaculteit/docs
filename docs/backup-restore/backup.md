@@ -1,26 +1,19 @@
-# Backing up your Actual budget
+# Maak een back-up van Consumeer Bewust
 
 :::note
 
-If your budget is very old, you may have trouble restoring large backups. If you’re encountering this issue, click “Reset Sync” under 'Settings' > 'Show advanced settings' to reset sync, then make the export again. This should reduce the file size.
+Als je budget erg oud is, kun je problemen ondervinden bij het herstellen van grote back-ups. Als je dit probleem tegenkomt, klik dan op "Synchronisatie resetten" onder 'Instellingen' > 'Toon geavanceerde instellingen' om de synchronisatie te resetten, en maak dan opnieuw de export. Dit zou de bestandsgrootte moeten verminderen.
 
 :::
 
-You can export your data from Actual at any time. To do so,
+Je kunt op elk moment je gegevens van Consumeer Bewust exporteren. Om dit te doen,
 
-1. Login to your budget, click 'More' > 'Settings'
+1. Log in op je budget, klik op 'Meer' > 'Instellingen'
 
    ![](/img/backup-restore/sidebar-settings@2x.png)
 
-2. Scroll down to the Export section and click Export Data
+2. Scroll naar beneden naar de Export-sectie en klik op Gegevens Exporteren
 
    ![](/img/backup-restore/settings-export.png)
 
-3. Save the file somewhere on your computer - that is it done.
-
-## Manually creating a backup from the desktop app
-
-This will force a backup to be created right now. Do this if you are going to do something that you might want to revert later (and don't want to use [undo](../getting-started/tipstricks.md#undoredo)).
-
-- Select the **File > Load Backup…** menu item
-- Click **Backup Now**
+3. Sla het bestand ergens op je computer op.

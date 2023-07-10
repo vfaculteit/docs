@@ -1,59 +1,59 @@
-# Payees
+# Betrokken partijen
 
-A payee is a description of the source of a transaction. Actual provides a powerful way of managing payees.
+Een betrokken partij is een beschrijving van de bron van een transactie. Consumeer Bewust biedt een krachtige manier om betrokken partijen te beheren.
 
-When importing transactions, by default it will create new payees based on the given name. Usually this ends up with some ugly names like `Target Debit Crd Ach Tran Co Id:Xxxxx15170`. With payee management, you can clean these names up, set rules for how payees are resolved, and even set a default category to use.
+Bij het importeren van transacties, zal het standaard nieuwe betrokken partijen aanmaken op basis van de gegeven naam. Meestal resulteert dit in enkele lelijke namen zoals `Target Debit Crd Ach Tran Co Id:Xxxxx15170`. Met het beheer van betrokken partijen, kun je deze namen opschonen, regels instellen voor hoe betrokken partijen worden bepaald, en zelfs een standaard categorie instellen om te gebruiken.
 
-To manage payees, either select the **File > Manage Payees** menu item or click the **Manage Payees** button when editing a transaction's payee.
+Om betrokken partijen te beheren, selecteer je ofwel het **Bestand > Beheer Betrokken Partijen** menu-item of klik je op de **Beheer Betrokken Partijen** knop bij het bewerken van de betrokken partij van een transactie.
 
-## How payees work
+## Hoe betrokken partijen werken
 
-When importing transactions from a file, the system tries to automatically match the given names to existing payees. It does this by running through **rules** that you can edit. If no existing payee is found, it will create one.
+Bij het importeren van transacties uit een bestand, probeert het systeem automatisch de gegeven namen te matchen met bestaande betrokken partijen. Dit doet het door **regels** uit te voeren die je kunt bewerken. Als er geen bestaande betrokken partij wordt gevonden, zal het er een aanmaken.
 
-If a payee is found with an exact match as the given name, it will always use that payee.
+Als er een betrokken partij wordt gevonden met een exacte match als de gegeven naam, zal het altijd die betrokken partij gebruiken.
 
-Otherwise, it will look for payees with rules that match it. These rules specify whether it should match a string exactly, or if it should contain a string. For example, a **Target** payee might have a rule that says "if a name contains 'Target', use this payee", and the ugly payee above would be resolve to this **Target** payee.
+Anders zal het zoeken naar betrokken partijen met regels die overeenkomen. Deze regels specificeren of het een string exact moet matchen, of dat het een string moet bevatten. Bijvoorbeeld, een **Target** betrokken partij kan een regel hebben die zegt "als een naam 'Target' bevat, gebruik dan deze betrokken partij", en de lelijke betrokken partij hierboven zou opgelost worden naar deze **Target** betrokken partij.
 
-When a payee is matched, if it has a **default category** the transaction will automatically be assigned it.
+Wanneer een betrokken partij wordt gematcht, zal de transactie automatisch worden toegewezen aan de **standaard categorie** als deze er een heeft.
 
-## Editing a payee
+## Een betrokken partij bewerken
 
-1. Open the **Manage Payees** screen
-2. To **rename** a payee, click the name and type in a new one.
-3. To **delete** a payee, select it and press the **1 payee** button in the top-left and select **Delete**.
-4. Edit the default category by clicking it and selecting one from the dropdown.
-5. Edit the rules by clicking on the "# rules" button and a dropdown will appear with the list of rules to match this payee with.
+1. Open het **Beheer Betrokken Partijen** scherm
+2. Om een betrokken partij te **hernoemen**, klik op de naam en typ een nieuwe.
+3. Om een betrokken partij te **verwijderen**, selecteer het en druk op de **1 betrokken partij** knop in de linkerbovenhoek en selecteer **Verwijderen**.
+4. Bewerk de standaardcategorie door erop te klikken en er een te selecteren uit de dropdown.
+5. Bewerk de regels door op de "# regels" knop te klikken en een dropdown zal verschijnen met de lijst van regels om deze betrokken partij mee te matchen.
 
-## Merging payees
+## Betrokken partijen samenvoegen
 
-A powerful feature is merging payees. You may already have months worth of data and a lot of ugly **Morrisons** payees that all vary slightly. You want to merge all of these together into one payee.
+Een krachtige functie is het samenvoegen van betrokken partijen. Je hebt misschien al maanden aan data en een hoop lelijke **Morrisons** betrokken partijen die allemaal licht variëren. Je wilt al deze betrokken partijen samenvoegen tot één betrokken partij.
 
-1. Click the three dots next to your budget name
+1. Klik op de drie puntjes naast je budgetnaam
 
 ![](/img/payees/BudgetOptionButton.png)
 
-2. Click Manage Payees
+2. Klik op Beheer Betrokken Partijen
 
 ![](/img/payees/ManagingPayees.png)
 
-3. Type "Morrisons" into the filter to only show those payees.
+3. Typ "Morrisons" in de filter om alleen die betrokken partijen te tonen.
 
 ![](/img/payees/Payees.png)
 
-4. Click the checkbox in the table header next to the **Name** column to select all of the different variations of "Morrisons"
+4. Klik op het selectievakje in de tabelkop naast de **Naam** kolom om alle verschillende variaties van "Morrisons" te selecteren
 
 ![](/img/payees/PayeesSelected.png)
 
-5. Click the button in the top-left to open the menu, and select **Merge**
+5. Klik op de knop in de linkerbovenhoek om het menu te openen, en selecteer **Samenvoegen**
 
 ![](/img/payees/MergePayeesOption.png)
 
-6. All of the payees will merge into one and the name will be editable. Type in a name for the final payee.
+6. Alle betrokken partijen zullen samengevoegd worden tot één en de naam zal bewerkbaar zijn. Typ een naam voor de uiteindelijke betrokken partij.
 
 ![](/img/payees/PayeesMerged.png)
 
-You can individually select payees and merge them if you like, but filtering & merging is a powerful way to quickly clean up your payees.
+Je kunt individuele betrokken partijen selecteren en samenvoegen als je dat wilt, maar filteren & samenvoegen is een krachtige manier om snel je betrokken partijen op te schonen.
 
-## Transfer payees
+## Transfer betrokken partijen
 
-[Transfers](./transfers.md) are just special payees that indicate which account to transfer to/from. Since they are payees, you can create rules like normal which will automatically create transfers. Find them at the bottom of the **Manage Payees** screen if you want to create custom rules.
+[Overboekingen](./transfers.md) zijn gewoon speciale betrokken partijen die aangeven naar welke account er overgeboekt moet worden. Omdat het betrokken partijen zijn, kun je normale regels maken die automatisch overboekingen aanmaken. Je vindt ze onderaan het **Beheer Betrokken Partijen** scherm als je aangepaste regels wilt maken.

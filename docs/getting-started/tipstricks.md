@@ -1,71 +1,71 @@
 ---
 sidebar_position: 1
-title: 'Tips & Tricks'
+title: 'Tips & trucs'
 ---
 
-## Undo/redo
+## Ongedaan maken/opnieuw uitvoeren
 
-If you ever make a mistake, pressing <Key mod="cmd" k="z" /> will undo, and pressing <Key mod="cmd shift" k="z" /> will redo. This is an undo system that you can rely on; any change can be undone and the UI will walk back in time.
+Als je ooit een fout maakt, dan kun je deze ongedaan maken door op <Key mod="cmd" k="z" /> te drukken en opnieuw uitvoeren door op <Key mod="cmd shift" k="z" /> te drukken. Dit is een betrouwbaar systeem voor het ongedaan maken van handelingen; elke wijziging kan worden teruggedraaid en de gebruikersinterface gaat terug in de tijd.
 
-## Keyboard shortcuts
+## Toetsenbord snelkoppelingen
 
-A few global shortcuts:
+Enkele algemene snelkoppelingen:
 
-- <Key mod="cmd" k="1" /> will show the budget
-- <Key mod="cmd" k="2" /> will show reports
-- <Key mod="cmd" k="3" /> will show all accounts
-- <Key mod="cmd" k="o" /> will close the file and list other available files to open
+- <Key mod="cmd" k="1" /> toont het budget
+- <Key mod="cmd" k="2" /> toont rapporten
+- <Key mod="cmd" k="3" /> toont alle rekeningen
+- <Key mod="cmd" k="o" /> sluit het bestand en toont andere beschikbare bestanden om te openen
 
 ### Budget
 
-- <Key k="enter" /> while editing a budget amount will move to the next category.
-- <Key mod="shift" k="enter" /> will move to the previous category.
+- <Key k="enter" /> tijdens het bewerken van een budgetbedrag gaat naar de volgende categorie.
+- <Key mod="shift" k="enter" /> gaat naar de vorige categorie.
 
-### Transaction Editing
+### Transactiebewerking
 
-- When editing, <Key k="enter" /> and <Key mod="shift" k="enter" /> will move down and up. If a dropdown is open and you've typed a new value, this will instead save the value and close the dropdown.
-- When editing, <Key k="tab" /> and <Key mod="shift" k="tab" /> will move left and right
-- When adding a new transaction, <Key mod="cmd" k="enter" /> will add it regardless of where you are editing. Pressing <Key k="enter" /> in either the Payment or Deposit columns will add it as well.
+- Bij het bewerken zorgen <Key k="enter" /> en <Key mod="shift" k="enter" /> voor het omlaag en omhoog bewegen. Als een dropdown geopend is en je hebt een nieuwe waarde getypt, dan zal dit in plaats daarvan de waarde opslaan en de dropdown sluiten.
+- Bij het bewerken zorgen <Key k="tab" /> en <Key mod="shift" k="tab" /> voor het naar links en rechts bewegen
+- Bij het toevoegen van een nieuwe transactie zal <Key mod="cmd" k="enter" /> deze toevoegen ongeacht waar je aan het bewerken bent. Het indrukken van <Key k="enter" /> in de kolommen Betaling of Storting voegt deze ook toe.
 
-### Transaction Management
+### Transactiebeheer
 
-- <Key k="f" /> Show only selected transactions.
-- <Key k="d" /> Delete selected transactions.
-- <Key k="a" /> Set account for selected transations.
-- <Key k="p" /> set payee for selected transactions.
-- <Key k="n" /> Set notes for selected transactions.
-- <Key k="c" /> Set category for selected transactions.
-- <Key k="l" /> Toggle cleared for current transaction.
+- <Key k="f" /> Toont alleen geselecteerde transacties.
+- <Key k="d" /> Verwijdert geselecteerde transacties.
+- <Key k="a" /> Stelt rekening in voor geselecteerde transacties.
+- <Key k="p" /> stelt betaler in voor geselecteerde transacties.
+- <Key k="n" /> Stelt notities in voor geselecteerde transacties.
+- <Key k="c" /> Stelt categorie in voor geselecteerde transacties.
+- <Key k="l" /> Wisselt afgehandeld voor huidige transactie.
 
-The following require a transaction to have been selected first:
+Het volgende vereist eerst dat een transactie is geselecteerd:
 
-- <Key k="J" />/<Key arrow="down" /> Move to the next transaction down.
-- <Key k="K" />/<Key arrow="up" /> Move to the next transaction up.
-- <Key k="space" /> Toggle selection of current transaction.
-- <Key mod="shift" k="space" /> Add all transactions between current transaction and most recently selected transaction.
+- <Key k="J" />/<Key arrow="down" /> Ga naar de volgende transactie naar beneden.
+- <Key k="K" />/<Key arrow="up" /> Ga naar de volgende transactie omhoog.
+- <Key k="space" /> Wissel selectie van huidige transactie.
+- <Key mod="shift" k="space" /> Voeg alle transacties toe tussen huidige transactie en meest recent geselecteerde transactie.
 
-## View multiple months at once
+## Bekijk meerdere maanden tegelijk
 
-In the top left of the budget, you will see this control:
+In de linkerbovenhoek van het budget zie je deze knop:
 
 ![](/img/tips-tricks/months-selector.png)
 
-This sets the maximum amount of months to render at once, and defaults to 1. If you want to view multiple months on the same page, click the boxes to increase the number.
+Dit stelt het maximale aantal maanden in dat tegelijkertijd wordt weergegeven en staat standaard op 1. Als je meerdere maanden op dezelfde pagina wilt bekijken, klik dan op de vakjes om het aantal te verhogen.
 
 :::note
-This only controls the _maximum_ number of months. If the app is too small to render all of them it will only render the months that fit on the screen.
+Dit bepaalt alleen het _maximale_ aantal maanden. Als de app te klein is om ze allemaal weer te geven, worden alleen de maanden weergegeven die op het scherm passen.
 :::
 
-## Show running balances
+## Toon lopende saldi
 
-A "running balance" is the balance of the account after every transaction over time. This is very useful for reconciling accounts with banks because you can see the balance at a specific date and use it to compare it with your bank.
+Een "lopend saldo" is het saldo van de rekening na elke transactie in de loop van de tijd. Dit is erg handig voor het afstemmen van rekeningen met banken omdat je het saldo op een specifieke datum kunt zien en het kunt vergelijken met je bank.
 
-To enable this:
+Om dit in te schakelen:
 
-1. Click on an account
-2. Click on the 3 dots to show the actions menu
-3. Select "Show running balance"
+1. Klik op een rekening
+2. Klik op de 3 stippen om het actiemenu te tonen
+3. Selecteer "Toon lopend saldo"
 
-A new column should appear which shows the balance of the account after each transaction:
+Er verschijnt een nieuwe kolom die het saldo van de rekening na elke transactie toont:
 
 ![](/img/tips-tricks/running-balance.png)

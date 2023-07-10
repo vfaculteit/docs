@@ -1,102 +1,102 @@
-# Rules
+# Regels
 
-Introduced in 0.0.124, rules determine how a transaction is processed. When importing or syncing transactions, they are run through a list of rules that can apply actions to the transaction. For example, a rule could process a transaction with the payee `AMAZON.COM*5C7QC7MH0 AM 10/26 PURCHASE AMZN.COM/BILL`, and because it contains the word "amazon", sets the payee to "Amazon" and the category to "my fun stuff". Rules allow you to automate any workflow you want.
+Regels bepalen hoe een transactie wordt verwerkt. Bij het importeren of synchroniseren van transacties, worden ze door een lijst met regels uitgevoerd die acties op de transactie kunnen toepassen. Bijvoorbeeld, een regel kan een transactie verwerken met de begunstigde `AMAZON.COM*5C7QC7MH0 AM 10/26 PURCHASE AMZN.COM/BILL`, en omdat het het woord "amazon" bevat, zet het de begunstigde op "Amazon" en de categorie op "mijn leuke dingen". Regels stellen u in staat om elke workflow die u wilt te automatiseren.
 
-Cleaning up payees is a common use case of rules since they are ugly much of the time. But rules can do anything: they can set the "notes" field, create a transfer, and more. If you want to be super detailed, you can create all kinds of rules to automate your process away.
+Het opschonen van begunstigden is een veelvoorkomend gebruik van regels, aangezien ze vaak lelijk zijn. Maar regels kunnen alles doen: ze kunnen het veld "notities" instellen, een overdracht maken, en meer. Als u super gedetailleerd wilt zijn, kunt u allerlei regels maken om uw proces te automatiseren.
 
-Here's the best part: you might never need to touch rules. Actual will **automatically create rules for you** based on your behavior. As you rename payees or categorize transactions, it will use rules as a mechanism for writing down what you've done so it will automatically happen later. For example, if you categorize the payee "Kroger" as "Food" a couple times, it will create a rule to automatically apply that category on import. As you use Actual more, your data will automatically get cleaned up for you based on your previous behavior.
+Hier is het beste deel: u hoeft misschien nooit regels aan te raken. Consumeer Bewust zal **automatisch regels voor u maken** op basis van uw gedrag. Naarmate u begunstigden hernoemt of transacties categoriseert, zal het regels gebruiken als een mechanisme om op te schrijven wat u heeft gedaan, zodat het later automatisch gebeurt. Bijvoorbeeld, als u de begunstigde "Kroger" een paar keer als "Food" categoriseert, zal het een regel maken om die categorie automatisch toe te passen bij het importeren. Naarmate u Consumeer Bewust meer gebruikt, zullen uw gegevens automatisch voor u worden opgeschoond op basis van uw vorige gedrag.
 
-Eventually, you can just import transactions and quickly see your spending without having to do a lot of repetitive work to get up-to-date.
+Uiteindelijk kunt u gewoon transacties importeren en snel uw uitgaven zien zonder veel repetitief werk te hoeven doen om up-to-date te blijven.
 
-The second best part is because you ultimately own the rules, you are free to go in and change the rules that Actual made for you. We'll show you how this works in more detail below.
+Het op een na beste deel is dat omdat u uiteindelijk de regels bezit, u vrij bent om in te gaan en de regels te wijzigen die Consumeer Bewust voor u heeft gemaakt. We laten u hieronder in meer detail zien hoe dit werkt.
 
-## How rules work
+## Hoe regels werken
 
-You can view all the rules by going to File > Manage Rules… (On browser, open the system menu in the top of the sidebar.
+U kunt alle regels bekijken door te gaan naar Bestand > Regels beheren... (In de browser, open het systeemmenu in de bovenkant van de zijbalk.
 
-When a transaction is imported, it runs against all of the rules **in the order that you see them**. If all of the conditions of a rule matches (the left side), then all of the actions are run (the right side). The transaction is changed, and then it continues running the rest of the rules. Each rule is always only run once. At the end, the transaction will be updated with changes from all matching rules.
+Wanneer een transactie wordt geïmporteerd, wordt deze uitgevoerd tegen alle regels **in de volgorde waarin u ze ziet**. Als alle voorwaarden van een regel overeenkomen (de linkerkant), dan worden alle acties uitgevoerd (de rechterkant). De transactie wordt veranderd, en dan gaat het verder met het uitvoeren van de rest van de regels. Elke regel wordt altijd slechts één keer uitgevoerd. Aan het einde zal de transactie worden bijgewerkt met wijzigingen van alle overeenkomende regels.
 
-If there is a conflict, for example if two rules set the category, the rule that runs last will always win out.
+Als er een conflict is, bijvoorbeeld als twee regels de categorie instellen, zal de regel die als laatste wordt uitgevoerd altijd winnen.
 
-Rules are **automatically ranked** from least to most specific. If the conditions of one rule apply broadly, while the conditions of another are more specific, the latter will always run _after_ the former so its changes always win out. This means you can make a broad rule like "if a transaction's payee _contains_ 'cat' set the category to 'pets'", and then fix a mis-matched transaction with another rule that says "if the payee _is_ 'catan' set the category to 'games'". An "is" condition always ranks higher than "contains". Generally, you don't need to worry about this and it should work like you expect.
+Regels worden **automatisch gerangschikt** van minst tot meest specifiek. Als de voorwaarden van één regel breed toepasbaar zijn, terwijl de voorwaarden van een andere specifieker zijn, zal de laatste altijd _na_ de eerste worden uitgevoerd, zodat de wijzigingen altijd winnen. Dit betekent dat u een brede regel kunt maken zoals "als de begunstigde van een transactie 'cat' bevat, stel dan de categorie in op 'pets'", en dan een mismatch-transactie kunt corrigeren met een andere regel die zegt "als de begunstigde 'catan' is, stel dan de categorie in op 'games'". Een "is" voorwaarde rangschikt altijd hoger dan "bevat". Over het algemeen hoeft u zich hier geen zorgen over te maken en zou het moeten werken zoals u verwacht.
 
-While ranking works for the most part, you might want to say "this rule _always_ should run last no matter what". Actual allows this with **stages**. Rules are actually run in 3 stages: `pre`, normal, and `post`. By tagging a rule as `pre` or `post`, you force it to always run before or after rules in the other stages. Within a stage, rules are still automatically ranked.
+Hoewel rangschikken voor het grootste deel werkt, wilt u misschien zeggen "deze regel moet _altijd_ als laatste worden uitgevoerd, wat er ook gebeurt". Consumeer Bewust maakt dit mogelijk met **stadia**. Regels worden eigenlijk in 3 stadia uitgevoerd: `pre`, normaal, en `post`. Door een regel als `pre` of `post` te taggen, dwingt u het om altijd voor of na de regels in de andere stadia uit te voeren. Binnen een stadium worden regels nog steeds automatisch gerangschikt.
 
-### Fields
+### Velden
 
-Conditions can use the following fields:
+Voorwaarden kunnen de volgende velden gebruiken:
 
 - account
-- imported payee
-- payee
-- date
-- notes
-- amount
-- amount (inflow)
-- amount (outflow)
+- geïmporteerde begunstigde
+- begunstigde
+- datum
+- notities
+- bedrag
+- bedrag (instroom)
+- bedrag (uitstroom)
 
-`imported payee` is different from `payee` in that it is _always_ the original text of the payee or description field when the transaction was imported. `payee` references a payee in Actual. This matters because it allows you to rename a payee before it is created in Actual. You can have several rules that all check `imported payee` and set the payee to something without worrying about them stepping on each other. (Conditions can't reliably check `payee` if previous rules changed it)
+`geïmporteerde begunstigde` verschilt van `begunstigde` in die zin dat het _altijd_ de originele tekst is van het veld begunstigde of beschrijving wanneer de transactie werd geïmporteerd. `begunstigde` verwijst naar een begunstigde in Consumeer Bewust. Dit is belangrijk omdat het je in staat stelt een begunstigde te hernoemen voordat deze in Consumeer Bewust wordt gecreëerd. Je kunt verschillende regels hebben die allemaal `geïmporteerde begunstigde` controleren en de begunstigde naar iets instellen zonder je zorgen te maken over overlap. (Voorwaarden kunnen `begunstigde` niet betrouwbaar controleren als eerdere regels het hebben gewijzigd)
 
-The `inflow` and `outflow` versions of `amount` make it easier to work with amounts. If you only want to match expenses between 5 and 10 dollars, use `amount (outflow)` because that money is leaving the account. If you use `amount`, you'd have to use negative numbers and it's simply less convenient.
+De `instroom` en `uitstroom` versies van `bedrag` maken het gemakkelijker om met bedragen te werken. Als je alleen kosten wilt matchen tussen 5 en 10 dollar, gebruik dan `bedrag (uitstroom)` omdat dat geld de rekening verlaat. Als je `bedrag` gebruikt, moet je negatieve getallen gebruiken en dat is simpelweg minder handig.
 
-All strings are matched case-insensitive. An `imported payee` of "PuBlix" will match a condition that is "contains 'publix'".
+Alle tekenreeksen worden overeenkomst ongevoelig gematched. Een `geïmporteerde begunstigde` van "PuBlix" zal overeenkomen met een voorwaarde die "bevat 'publix'" is.
 
-Actions can set the following fields:
+Acties kunnen de volgende velden instellen:
 
-- payee
-- notes
-- date
-- amount
-- category
+- begunstigde
+- notities
+- datum
+- bedrag
+- categorie
 - account
-- cleared
+- afgehandeld
 
-## Automatic rules
+## Automatische regels
 
-Right now, there are two types of rules that Actual will automatically create or update for you: renaming payees and categorizing transactions.
+Op dit moment zijn er twee soorten regels die Consumeer Bewust automatisch voor je zal aanmaken of bijwerken: het hernoemen van begunstigden en het categoriseren van transacties.
 
-When you change the payee of a transaction and the previous one is no longer used anywhere, Actual will ask you if you want to automatically apply that rename in the future. This creates a nice flow for cleaning up transactions: you can import transactions with ugly payees like `AMAZON.COM*5C7QC7MH0 AM 10/26 PURCHASE AMZN.COM/BILL`, and then change the payee in the transactions list. Actual will ask you if you want to do that in the future, and if you click yes, that payee will automatically be cleaned up in the future.
+Wanneer je de begunstigde van een transactie wijzigt en de vorige wordt nergens anders meer gebruikt, zal Consumeer Bewust je vragen of je wilt dat die hernoeming in de toekomst automatisch wordt toegepast. Dit creëert een prettige flow voor het opruimen van transacties: je kunt transacties importeren met lelijke begunstigden zoals `AMAZON.COM*5C7QC7MH0 AM 10/26 AANKOOP AMZN.COM/BILL`, en vervolgens de begunstigde in de transactielijst wijzigen. Consumeer Bewust zal je vragen of je dat in de toekomst wilt doen, en als je op ja klikt, zal die begunstigde in de toekomst automatisch worden opgeschoond.
 
-In the prompt, you can also select the "edit rule" option. Actual will take you to the rule that it created for the rename, and you can change it however you like. For the above payee, you probably want to change the condition to "contains 'amazon'" so all amazon payees are cleaned up.
+In de prompt kun je ook de optie "bewerk regel" selecteren. Consumeer Bewust neemt je mee naar de regel die het heeft gemaakt voor de hernoeming, en je kunt deze naar wens wijzigen. Voor de bovenstaande begunstigde wil je waarschijnlijk de voorwaarde veranderen in "bevat 'amazon'" zodat alle amazon begunstigden worden opgeschoond.
 
-Payee renaming rules that Actual creates are always in the `pre` stage, so they always run first.
+Regels voor het hernoemen van begunstigden die Consumeer Bewust aanmaakt, bevinden zich altijd in het `pre` stadium, dus ze worden altijd eerst uitgevoerd.
 
-Actual also creates/updates rules for categorizing transactions. When you categorize a transaction, it will determine the best category for a transaction (basically the most common one) and create a rule that sets the category for the payee. If a rule already exists for the payee, it updates the category to set.
+Consumeer Bewust maakt ook regels aan/bij voor het categoriseren van transacties. Wanneer je een transactie categoriseert, bepaalt het de beste categorie voor een transactie (in wezen de meest voorkomende) en maakt een regel aan die de categorie instelt voor de begunstigde. Als er al een regel bestaat voor de begunstigde, wordt de in te stellen categorie bijgewerkt.
 
-Over time, most categories should automatically get set for you which reduces a lot of tedious work.
+Na verloop van tijd zouden de meeste categorieën automatisch voor je ingesteld moeten worden, wat veel tijdrovend werk bespaart.
 
-Categorizing rules are always created in the default stage. Since payee renaming rules are `pre`, they always run before categorizing no matter what. In this case, we don't want them automatically ranked because we always want the payee to be set before running the category rules.
+Categorisatie regels worden altijd gemaakt in de standaardfase. Aangezien regels voor het hernoemen van begunstigden `pre` zijn, worden ze altijd eerst uitgevoerd, ongeacht wat. In dit geval willen we ze niet automatisch rangschikken, omdat we altijd willen dat de begunstigde is ingesteld voordat de categorieregels worden uitgevoerd.
 
-Of course, you are free to edit the rules as you like. Change the category set for a payee, or tweak the renaming rules. Actual is there to help, but ultimately you are in control.
+Natuurlijk ben je vrij om de regels naar wens te bewerken. Verander de ingestelde categorie voor een begunstigde, of pas de hernoemingsregels aan. Actual is er om te helpen, maar uiteindelijk heb je de controle.
 
-If Actual is doing something that you simply don't like, create a `post` rule to force it to run after everything else. You could even turn off auto-categorizing altogether by create a `post` rule that matches a `date` of today or later (so all transactions would match) and sets the category to `null`.
+Als Actual iets doet dat je simpelweg niet bevalt, maak dan een `post` regel om het te dwingen om na alles te draaien. Je zou zelfs automatische categorisatie volledig kunnen uitschakelen door een `post` regel te maken die overeenkomt met een `datum` van vandaag of later (zodat alle transacties overeenkomen) en stelt de categorie in op `null`.
 
-## Managing rules
+## Regels beheren
 
-### Creating a rule
+### Een regel aanmaken
 
-To create a rule, go to File > Manage Rules… to view all the rules and click "Create new rule" in the bottom-right. You will now be editing a new rule.
+Om een regel te maken, ga naar Bestand > Beheer regels... om alle regels te bekijken en klik op "Maak nieuwe regel" rechtsonder. Je zult nu een nieuwe regel bewerken.
 
-### Editing a rule
+### Een regel bewerken
 
-When viewing a list of rules, click the "edit" button on the right to edit a rule. The "edit rule" screen lists all the conditions and actions in an editable format. You can add/remote actions and conditions, change operators or values, and more.
+Bij het bekijken van een lijst met regels, klik je op de knop "bewerken" aan de rechterkant om een regel te bewerken. Het scherm "regel bewerken" geeft alle voorwaarden en acties weer in een bewerkbaar formaat. Je kunt acties en voorwaarden toevoegen/verwijderen, operatoren of waarden wijzigen, en meer.
 
-This screen also lists all the transactions that currently match the conditions. This gives you great feedback if your conditions are working the way you expect.
+Dit scherm geeft ook alle transacties weer die momenteel aan de voorwaarden voldoen. Dit geeft je uitstekende feedback als je voorwaarden werken zoals je verwacht.
 
-You can even manually apply all the actions to the transactions. You need to select the transactions from the list that you want to change (clicking in the header will select all of them) and click "Apply actions". This helps if you want the rule to apply to some existing transactions as well.
+Je kunt zelfs handmatig alle acties op de transacties toepassen. Je moet de transacties uit de lijst selecteren die je wilt wijzigen (klikken in de koptekst selecteert ze allemaal) en klikken op "Pas acties toe". Dit is handig als je wilt dat de regel van toepassing is op enkele bestaande transacties.
 
-### Deleting a rule
+### Een regel verwijderen
 
-To delete a rule, go to File > Manage Rules… to view all the rules and select the ones you want to delete. Click the "Delete # rules" button to delete them.
+Om een regel te verwijderen, ga je naar Bestand > Regels Beheren... om alle regels te bekijken en selecteer je degene die je wilt verwijderen. Klik op de knop "Verwijder # regels" om ze te verwijderen.
 
-### Viewing rules for a payee
+### Regels voor een betaler bekijken
 
-To view the list of rules that apply to a specific payee, go to File > Manage Payees… to view the list of payees. This table shows you which payees have rules associated with them, and you can click "# associated rules" to view the rules just for that payee.
+Om de lijst van regels te bekijken die van toepassing zijn op een specifieke betaler, ga je naar Bestand > Betrokken partijen beheren... om de lijst van betrokken partijen te bekijken. Deze tabel laat zien welke betalers regels aan hen gekoppeld hebben, en je kunt klikken op "# geassocieerde regels" om de regels alleen voor die betaler te bekijken.
 
-## Using the rule editor for sophisticated batch editing
+## De regel editor gebruiken voor geavanceerd batch bewerken
 
-This deserves its own section because this turned out to be a surprising use case. Because the rule editor shows you a list of transactions that match the conditions, and allows you to manually apply actions to some or all of them, it turns out to be a great "batch editor".
+Dit verdient zijn eigen sectie omdat dit een verrassend gebruik bleek te zijn. Omdat de regel editor je een lijst laat zien van transacties die voldoen aan de voorwaarden, en je toestaat om acties handmatig toe te passen op sommige of alle van hen, blijkt het een geweldige "batch editor" te zijn.
 
-That means if you need to do a lot of work across many transactions at once, you should try the rule editor. While you can select individual transactions in the account screen and quickly change any one field, that is more targeted to changing one field across a small number of transactions. In the rule editor, you can apply any number of actions at once and get a clear view of what transactions are changing.
+Dat betekent dat als je veel werk moet doen over veel transacties in één keer, je de regel editor moet proberen. Terwijl je individuele transacties kunt selecteren in het account scherm en snel één veld kunt veranderen, is dat meer gericht op het veranderen van één veld over een klein aantal transacties. In de regel editor kun je een willekeurig aantal acties in één keer toepassen en krijg je een duidelijk overzicht van welke transacties aan het veranderen zijn.
 
-To do this go to File > Manage Rules… and click "Create new rule". You won't be actually creating a new rule, but you'll have the rule editor at your disposal for quick bulk editing.
+Om dit te doen ga je naar Bestand > Regels Beheren... en klik je op "Nieuwe regel maken". Je zult niet echt een nieuwe regel aan het maken zijn, maar je zult de regel editor tot je beschikking hebben voor snel bulk bewerken.

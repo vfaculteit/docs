@@ -14,10 +14,10 @@ const defaultOptions = {
 
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
-  title: 'Actual Budget Documentation',
+  title: 'Consumeer Bewust',
   tagline: 'Dinosaurs are cool',
-  url: 'https://docs.actualbudget.org',
-  baseUrl: '/',
+  url: 'https://docs.consumeer-bewust.vastgoedfaculteit.be',
+  baseUrl: 'https://docs.financetracker-beta.vastgoedfaculteit.be/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -54,47 +54,22 @@ module.exports = {
     ({
       navbar: {
         logo: {
-          alt: 'Actual Open Source',
-          src: 'img/actual.png',
+          alt: 'VastgoedFaculteit Consumeer Bewust',
+          src: 'img/logo-min.png',
         },
         items: [
           {
             to: '/#features',
             // never render as active
             activeBaseRegex: '^$',
-            label: 'Features',
+            label: 'Functies',
             position: 'left',
           },
           {
             type: 'doc',
             docId: 'index',
-            label: 'Docs',
+            label: 'Handleiding',
             position: 'left',
-          },
-          {
-            to: 'blog',
-            label: 'Blog',
-            position: 'left',
-          },
-          {
-            to: '/contact',
-            label: 'Contact',
-            position: 'left',
-          },
-          {
-            href: 'https://opencollective.com/actual',
-            label: 'Donate',
-            position: 'left',
-          },
-          {
-            href: 'https://discord.gg/8JfAXSgfRf',
-            label: 'Discord',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/actualbudget/actual',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
@@ -102,27 +77,11 @@ module.exports = {
         style: 'dark',
         links: [
           {
-            label: 'Discord',
-            href: 'https://discord.gg/8JfAXSgfRf',
-          },
-          {
-            label: 'GitHub',
-            href: 'https://github.com/actualbudget/actual',
-          },
-          {
-            href: 'https://opencollective.com/actual',
-            label: 'Donate',
-          },
-          {
-            label: 'Website Source',
-            href: 'https://github.com/actualbudget/docs',
-          },
-          {
-            label: 'RSS Feed',
-            href: '/blog/rss.xml',
+            label: 'Vastgoed Faculteit',
+            href: 'https://vastgoedfaculteit.be',
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Vastgoed Faculteit.`,
       },
       prism: {
         theme: lightCodeTheme,

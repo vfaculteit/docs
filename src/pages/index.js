@@ -9,46 +9,42 @@ import classes from './index.module.css';
 
 export default function Hello() {
   return (
-    <Layout title="Actual" style={{ position: 'relative' }}>
+    <Layout title="Vastgoed Faculteit" style={{ position: 'relative' }}>
       <img alt="" src="/img/homepage/hero-bg.svg" class={classes.heroBg} />
 
       <div class={`${classes.main} ${classes.container}`}>
-        <h1>Your Finances - made simple</h1>
+        <h1>Uw Financiën - eenvoudig gemaakt</h1>
         <p class={classes.heroText}>
-          Actual Budget is a super fast and privacy-focused app for managing
-          your finances. At its heart is the well proven and much loved Envelope
-          Budgeting methodology.
+          Consumeer Bewust is een supersnelle en privacygerichte app voor het beheren van uw financiën.
+          Het hart van de app is de beproefde en geliefde methode van Envelope Budgetteren.
           <br />
-          <strong>You own your data</strong> and can do whatever you want with
-          it. Featuring multi-device sync, optional end-to-end encryption and so
-          much more.
+          <strong>U bezit uw gegevens</strong> en kunt ermee doen wat u wilt.
+          Met synchronisatie op meerdere apparaten, optionele end-to-end encryptie en nog veel meer.
         </p>
         <div>
-          <Button to="https://demo.actualbudget.org">Try Our Demo</Button>
-          <Button primary to="/docs/install/">
-            Install
+          <Button primary to="https://financetracker-beta.vastgoedfaculteit.be/">
+            Probeer onze demo.
           </Button>
         </div>
         <div class={classes.heroImage}>
           <Image
             img={require('../../static/img/homepage/actual-main-budget.png')}
-            alt="Actual Budget"
+            alt="Consumeer Bewust"
           />
         </div>
 
         <MediumFeature
-          title="Be involved in your financial decisions"
+          title="Maak doordachte financiële beslissingen."
           src="/img/homepage/superpowers.svg"
         >
-          Automated finance tools are great, except when they aren’t. We provide
-          you with tools that are quick to use, but ultimately{' '}
-          <strong>you are in control</strong>. We help you learn, instead of
-          dictating.
+          Geautomatiseerde financiële tools zijn geweldig, behalve wanneer ze dat niet zijn.
+          Wij bieden u een tool die snel te gebruiken is, maar uiteindelijk heeft <strong>u de controle</strong>.
+          Wij helpen u te leren in plaats van te zeggen wat u moet doen.
         </MediumFeature>
 
         <MediumFeature
           flip
-          title="Meticulously designed for speed"
+          title="Zorgvuldig ontworpen voor snelheid."
           media={
             <video
               loop
@@ -60,58 +56,51 @@ export default function Hello() {
             />
           }
         >
-          A <strong>beautifully designed interface</strong> is fine-tuned to get
-          out of your way and make it as fast as possible to explore your
-          finances.
+          Een <strong>prachtig ontworpen interface</strong> die nauwkeurig afgestemd is om u zo min mogelijk te hinderen
+          en het beheer van uw financiën zo snel mogelijk te maken.
         </MediumFeature>
 
         <MediumFeature
-          title="Unabashedly local-first software"
+          title="Unabashedly local-first software."
           src="/img/homepage/local-first.svg"
         >
-          <strong>Actual is a local app, plain and simple.</strong> Your data is
-          synced in the background so all devices have access, but the app
-          totally works regardless of your network connection. This also allows{' '}
+          <strong>Consumeer Bewust is een lokale app.</strong>
+          Uw gegevens worden op de achtergrond gesynchroniseerd zodat al uw apparaten toegang hebben,
+          maar de app werkt ongeacht uw netwerkverbinding.
+          Dit stelt ons ook in staat om{' '}
           <Link to="/docs/getting-started/sync#end-to-end-encryption">
-            end-to-end encryption
+            end-to-end versleuteling
           </Link>{' '}
-          to keep your data private.
+          te gebruiken om uw data veilig te houden.
         </MediumFeature>
 
         <div id="features" />
         <BigFeature
-          title="Powerful budgeting made simple"
+          title="Budgetteren eenvoudig gemaakt."
           src="/img/homepage/actual-main-budget.png"
         >
           <strong>
-            Save hundreds of dollars a year (at least!) by tracking your
-            spending.
+            Bespaar (minstens!) honderden euro's per jaar door uw uitgaven bij te houden.
           </strong>{' '}
-          Based on tried and true methods, our budgeting system is based off of
-          your real income instead of made up numbers. This makes you face your
-          real spending, and clearly shows how much you are saving each month.
-          We make this process as simple as possible.{' '}
-          <Link to="/docs/budgeting/">Learn&nbsp;more</Link>
+          Gebaseerd op beproefde methoden is ons budgetteringssysteem gebaseerd op uw werkelijke inkomen in plaats van verzonnen cijfers. Hierdoor wordt u geconfronteerd met uw werkelijke uitgaven en wordt duidelijk weergegeven hoeveel u elke maand bespaart. We maken dit proces zo eenvoudig mogelijk.
+          {' '}
+          <Link to="/docs/budgeting/">Meer&nbsp;informatie</Link>
         </BigFeature>
 
         <BigFeature
-          title="The fastest way to manage transactions"
+          title="De snelste manier om transacties te beheren."
           src="/img/homepage/actual-main-transaction.png"
         >
-          Breeze through your transactions and update them easily with a
-          streamlined, minimal interface. Categorizing your transactions
-          correctly is important and we’ve optimized this process. Manage split
-          transactions and transfers all in the same editor.
+          Beheer uw transacties moeiteloos en werk ze eenvoudig bij met een gestroomlijnde, minimalistische interface.
+          Het correct categoriseren van uw transacties is belangrijk en we hebben dit proces geoptimaliseerd.
+          Beheer gesplitste transacties en overboekingen allemaal in dezelfde editor.
         </BigFeature>
 
         <BigFeature
-          title="Oh my, the reports"
+          title="Oh nee, rapporten"
           src="/img/homepage/actual-report-cash-flow.png"
         >
-          Intuitive reports give you a quick way to learn about your finances.
-          By default, we include net worth and cash flow reports, but soon
-          you’ll be able to create any report that you like. You’ll even be able
-          to download custom reports from others.
+          Intuïtieve rapporten geven u een snelle manier om meer te weten te komen over uw financiën. Standaard zijn er rapporten beschikbaar over netto waarde en kasstroom, maar binnenkort kunt u ook uw eigen rapporten maken. U kunt zelfs aangepaste rapporten downloaden van anderen.
         </BigFeature>
       </div>
 
@@ -123,103 +112,69 @@ export default function Hello() {
         />
 
         <h2 class={`${classes.featuresSectionHeader} serif-header`}>
-          So many features
+          Zo veel functies
         </h2>
         <div class={`${classes.smallFeaturesGrid} ${classes.container}`}>
           <SmallFeature
-            title="Everything in one place"
+            title="Alles op één plek."
             icon={icons.smileyBlessedAlternate}
             learnMore="/docs/accounts/"
           >
-            Add all of your accounts and track everything in one place. Get
-            valuable information like net worth from all your accounts together.
+            Voeg al uw rekeningen toe en houd alles bij op één plek.
+            Krijg nuttige informatie, zoals de totale waarde van al uw rekeningen.
           </SmallFeature>
           <SmallFeature
-            title="Syncing across devices"
-            icon={icons.synchronizeArrows1}
-            learnMore="/docs/accounts/"
-          >
-            Self-host our syncing service. It’s easy to set up, but uses
-            sophisticated distributed systems technology to sync changes across
-            any number of devices.
-          </SmallFeature>
-          <SmallFeature
-            title="Payees"
+            title="Betrokken partijen"
             icon={icons.shopCashierWoman}
             learnMore="/docs/transactions/payees"
           >
-            Manage payees quickly. Merge them, set up custom rules for how they
-            are matched, and use default categories to automatically categorize
-            transactions.
+            Beheer makkelijk betrokken partijen.
+            Voeg ze samen, stel aangepaste regels in voor hoe ze worden gematcht
+            en gebruik standaard categorieën om transacties automatisch te categoriseren.
           </SmallFeature>
           <SmallFeature
-            title="Split transactions"
+            title="Splits transacties"
             icon={icons.diagramSplitVertical}
           >
-            Use split transactions to separate a single expense into multiple
-            categories. An inline editor makes this seamless.
+            Gebruik gesplitste transacties om een enkele uitgave op te splitsen in meerdere categorieën. Een inline editor maakt dit naadloos mogelijk.
           </SmallFeature>
           <SmallFeature
-            title="Budgeting"
+            title="Budgetteren"
             icon={icons.wallet}
             learnMore="/docs/budgeting/"
           >
-            Track your spending with budgets. You can only budget cash you have
-            on hand, which means your budget stays realistic and you don't make
-            numbers up.
+            Houd uw uitgaven bij met budgetten. U kunt alleen budgetteren met het geld dat u daadwerkelijk beschikbaar heeft, waardoor uw budget realistisch blijft en u geen cijfers verzint.
           </SmallFeature>
           <SmallFeature
-            title="Transfers"
+            title="Overboekingen"
             icon={icons.dataTransferHorizontal}
             learnMore="/docs/transactions/transfers"
           >
-            Manage transfers easily by creating transfer transactions. Actual
-            will link the transactions on both sides and update them together.
+            Beheer overboekingen eenvoudig door overboekingstransacties aan te maken. Consumeer bewust zal de transacties aan beide kanten koppelen en ze samen bijwerken.
           </SmallFeature>
           <SmallFeature
-            title="Importing Transactions"
+            title="Transacties importeren"
             icon={icons.commonFileDownload}
             learnMore="/docs/transactions/importing"
           >
-            Import transactions from the most popular financial files: QIF, OFX,
-            QFX, and CSV. Soon we will launch bank syncing to automatically
-            download transactions.
+            Importeer transacties vanuit de meest populaire financiële bestanden: QIF, OFX, QFX en CSV. Binnenkort zullen we bank synchronisatie lanceren om transacties automatisch te downloaden.
           </SmallFeature>
           <SmallFeature
-            title="Undo & redo"
+            title="Ongedaan maken en opnieuw doen."
             icon={icons.rotateBack}
             learnMore="/docs/getting-started/tipstricks#undoredo"
           >
-            A robust undo system allows you to rollback any changes you make,
-            and redo them if desired. Never worry about making mistakes.
-          </SmallFeature>
-          <SmallFeature
-            title="Migrate your data"
-            icon={icons.realEstateTruckHouse}
-            learnMore="/docs/migration/"
-          >
-            We provide builtin YNAB4 & nYNAB importers that keep all of your
-            history.
-          </SmallFeature>
-          <SmallFeature
-            title="API"
-            icon={icons.hierarchy1}
-            learnMore="/docs/api/"
-          >
-            If you're a developer, we got you. Use our fully-featured API to
-            write custom importers or build your own features. This API simply
-            runs on your local data.
+            Een robuust systeem voor ongedaan maken stelt u in staat om wijzigingen terug te draaien en ze indien gewenst opnieuw uit te voeren. Maak u nooit meer zorgen over het maken van fouten.
           </SmallFeature>
         </div>
         <div class={`${classes.ownYourDataSection} ${classes.container}`}>
-          <h3 class="serif-header">Own your data</h3>
+          <h3 class="serif-header">U bent de eigenaar van uw gegevens</h3>
           <div class={classes.ownYourDataContent}>
             {icons.shieldLock}
             <div>
-              Actual allows you to effortlessly sync changes by running your own
-              server. Access updates from anywhere with peace of mind. For those
-              seeking next-level security, our optional end-to-end encryption
-              ensures your data remains unreadable, even to the server.
+              Consumeer bewust stelt u in staat om moeiteloos wijzigingen te synchroniseren tussen apparaten via onze cloud.
+              Onze end-to-end encryptie zorgt ervoor dat uw gegevens onleesbaar blijven, zelfs voor ons.
+              U kunt overal toegang krijgen tot budget met gemoedsrust.
             </div>
           </div>
         </div>
@@ -236,7 +191,7 @@ function SmallFeature({ title, icon, learnMore, children }) {
         <h3 class={classes.smallFeatureTitle}>{title}</h3>
         <p class={classes.smallFeatureText}>
           {children}{' '}
-          {learnMore ? <Link to={learnMore}>Learn&nbsp;more</Link> : null}
+          {learnMore ? <Link to={learnMore}>Meer&nbsp;informatie</Link> : null}
         </p>
       </div>
     </div>

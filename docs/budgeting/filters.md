@@ -1,38 +1,38 @@
-# Filtering In Actual
+# Filteren in Consumeer Bewust
 
-### Introduction
+### Introductie
 
-Filter is a little known tool in Actual but is really quite a powerhouse. Filters go well beyond the simple Search tool and will allow you to create all sorts of useful transaction summaries. This will help you view various aspects of your spending, extract data for tax filing and so on.
+Filter is een weinig bekende tool in Consumeer Bewust, maar is eigenlijk best een krachtpatser. Filters gaan veel verder dan de simpele Zoekfunctie en stellen je in staat om allerlei nuttige transactieoverzichten te maken. Dit helpt je bij het bekijken van verschillende aspecten van je uitgaven, het extraheren van gegevens voor belastingaangifte en dergelijke.
 
-### Caveats
+### Beperkingen
 
-Inevitably, there are some restrictions but these offer a great opportunity for developers to improve Actual in the future:
+Onvermijdelijk zijn er enkele beperkingen, maar deze bieden een geweldige kans voor ontwikkelaars om Consumeer Bewust in de toekomst te verbeteren:
 
-1. The filtered searches cannot be saved - so they need to be recreated each time you wish to use them.
-2. The only way to print the filtered results is via a screen shot (unless you save to a spreadsheet as a CSV file first)
-3. The columns of the filtered view cannot yet be sorted. But you can of course export the filtered results to a spreadsheet and play with them to your heart’s content.
-4. Split transactions do not behave well in the filtered view. The non-applicable part of the filtered results can end up getting added into the total.
-5. Filters are just one way of searching and viewing your data. There is still great scope for the future development of graphical style reports in Actual.
+1. De gefilterde zoekopdrachten kunnen niet worden opgeslagen - dus ze moeten elke keer dat je ze wilt gebruiken opnieuw worden gecreëerd.
+2. De enige manier om de gefilterde resultaten af te drukken is via een schermafbeelding (tenzij je eerst opslaat naar een spreadsheet als een CSV-bestand)
+3. De kolommen van de gefilterde weergave kunnen nog niet worden gesorteerd. Maar je kunt natuurlijk de gefilterde resultaten exporteren naar een spreadsheet en er naar hartenlust mee spelen.
+4. Gesplitste transacties gedragen zich niet goed in de gefilterde weergave. Het niet-toepasselijke deel van de gefilterde resultaten kan uiteindelijk worden opgeteld bij het totaal.
+5. Filters zijn slechts één manier van zoeken en bekijken van je gegevens. Er is nog veel ruimte voor de toekomstige ontwikkeling van grafische stijlrapporten in Consumeer Bewust.
 
-### How to use the Filter tool
+### Hoe gebruik je de Filter tool
 
-Well, having got that out of the way please don’t let any of this put you off. Filters are a great tool – and there is lots more scope for further development.
+Goed, nu we dat uit de weg hebben geruimd, laat je hierdoor niet ontmoedigen. Filters zijn een geweldige tool – en er is veel meer ruimte voor verdere ontwikkeling.
 
 :::note
-Payees have been redacted in all images for privacy reasons
+Betalers zijn in alle afbeeldingen om privacyredenen weggelaten
 :::
 
-First go to the **Accounts** view. This is to be sure that you are picking up all relevant transactions, rather than those from just one Account or Credit Card.
+Ga eerst naar het **Rekeningen** overzicht. Dit is om er zeker van te zijn dat je alle relevante transacties oppikt, in plaats van alleen die van één Rekening of Creditcard.
 
 ![](/img/filtering/accounts@2x.png)
 
-Now select **Filter**. You will see from this drop-down that there are a number to choose from:
+Selecteer nu **Filter**. Je ziet in dit dropdown-menu dat er verschillende opties zijn om uit te kiezen:
 
 ![](/img/filtering/filter.png)
 
-The great thing is that you are not limited to just one Filter. You can select multiple filters. In effect stacking one upon another. An example will help illustrate this.
+Het geweldige is dat je niet beperkt bent tot slechts één filter. Je kunt meerdere filters selecteren. In feite stapel je er een op de andere. Een voorbeeld zal dit helpen illustreren.
 
-There are further options to choose within each area, in order to narrow the Filter still further. Here are three just to illustrate the choices – Dates, Categories and Notes:
+Er zijn verdere opties om te kiezen binnen elk gebied, om het Filter nog verder te verfijnen. Hier zijn er drie om de keuzes te illustreren – Datums, Categorieën en Notities:
 
 ![](/img/filtering/conditions-1.png)
 
@@ -40,22 +40,22 @@ There are further options to choose within each area, in order to narrow the Fil
 
 ![](/img/filtering/conditions-3.png)
 
-### Example
+### Voorbeeld
 
-In this example we are finding out how much the Mercedes car cost to run during the 2021 calendar year. To enhance this analysis a Note of each vehicle owned was added to transactions in the “Car” category group. Adding such a note is made much easier by ensuring that the Note is added to each relevant scheduled (recurring) transaction. In this instance the Note was added using the tag symbol (#Merc) but the # is not needed. It is a personal preference. Alternatively, you could just be more granular in your creation of Categories.
+In dit voorbeeld proberen we erachter te komen hoeveel de Mercedes-auto kostte om te rijden tijdens het kalenderjaar 2021. Om deze analyse te verbeteren werd een Opmerking van elk voertuig dat in bezit was toegevoegd aan transacties in de "Auto" categoriegroep. Het toevoegen van zo'n opmerking wordt veel gemakkelijker gemaakt door ervoor te zorgen dat de opmerking wordt toegevoegd aan elke relevante geplande (terugkerende) transactie. In dit geval werd de Opmerking toegevoegd met behulp van het tagsymbool (#Merc) maar de # is niet nodig. Het is een persoonlijke voorkeur. Als alternatief zou je gewoon meer gedetailleerd kunnen zijn in je aanmaak van Categorieën.
 
 ![](/img/filtering/multiple-filters.png)
 
-Here is an image of the multiple filters that have been selected. In this example, these include a Date range, multiple Categories, and a Note.
+Hier is een afbeelding van de meervoudige filters die zijn geselecteerd. In dit voorbeeld zijn dit een datumreeks, meerdere Categorieën en een Opmerking.
 
 ![](/img/filtering/highlight.png)
 
-Now we want to see the total spent on the Mercedes car in 2021. This is shown at the top centre of the following image.
+Nu willen we zien hoeveel er in totaal aan de Mercedes-auto is uitgegeven in 2021. Dit wordt getoond in het midden bovenaan de volgende afbeelding.
 
 ![](/img/filtering/highlight-2.png)
 
-But what if we need to drill down further and calculate just the costs were for servicing this particular car? By deselecting the non-applicable transactions a revised total appears as shown below. Alternatively just remove the non-applicable category filters.
+Maar wat als we verder moeten graven en berekenen wat precies de kosten waren voor het onderhoud van deze specifieke auto? Door de niet-toepasselijke transacties te deselecteren verschijnt er een herzien totaal zoals hieronder getoond. Als alternatief kun je gewoon de niet-toepasselijke categorie filters verwijderen.
 
-### Conclusion
+### Conclusie
 
-This is just one possible use case. The filters you personally create will be dictated by your own needs. There is lots of room here for personal creativity!
+Dit is slechts één mogelijke use case. De filters die je persoonlijk maakt worden bepaald door je eigen behoeften. Er is hier veel ruimte voor persoonlijke creativiteit!

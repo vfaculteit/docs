@@ -1,116 +1,117 @@
-# How Budgeting Works
+# Hoe budgetteren werkt
 
-The purpose of a budget is to answer simple questions: how much money did I save last month? Do I have enough money to make this purchase? Answering these is simple in an ideal world, but the complexity of real life sometimes makes it hard to see clearly.
+Het doel van een budget is om eenvoudige vragen te beantwoorden: hoeveel geld heb ik vorige maand bespaard? Heb ik genoeg geld om deze aankoop te doen? Het beantwoorden van deze vragen is eenvoudig in een ideale wereld, maar de complexiteit van het echte leven maakt het soms moeilijk om duidelijk te zien.
 
-There are many approaches to budgeting. Some of the approaches that seem simple at first end up causing more work to keep an accurate budget, or make it easy for hidden expenses to drain your savings.
+Er zijn veel benaderingen van budgetteren. Sommige benaderingen die in eerste instantie eenvoudig lijken, leiden tot meer werk om een nauwkeurig budget te behouden, of maken het gemakkelijk voor verborgen kosten om je spaargeld te verminderen.
 
-We find the best way to track your money is rooted in something called **envelope budgeting**. Instead of predicting how much you'll make and spend and trying to reconcile that with what actually happened, envelope budgeting embraces real income as the source of your budget instead. This means you can only budget money that you already have.
+We vinden dat de beste manier om je geld bij te houden, is gebaseerd op iets dat **enveloppen budgetteren** wordt genoemd. In plaats van te voorspellen hoeveel je zult verdienen en uitgeven en te proberen dat te verzoenen met wat er werkelijk is gebeurd, omarmt enveloppen budgetteren echt inkomen als de bron van je budget. Dit betekent dat je alleen geld kunt budgetteren dat je al hebt.
 
-You can think of categories as little funds that you deposit money into. Combined with our rollover system, it provides an intuitive way to handle a lot of things that come up in life. And you know it's always accurately depicting your finances — there's no made up numbers.
+Je kunt categorieën beschouwen als kleine fondsen waarin je geld stort. Gecombineerd met ons doorschuifsysteem, biedt het een intuïtieve manier om veel dingen die in het leven voorkomen te behandelen. En je weet dat het altijd een nauwkeurige weergave van je financiën is - er zijn geen verzonnen getallen.
 
-Like the tactile feedback of a vibration under your finger, this system tells you when things are right or wrong and provides easy ways to fix it.
+Net als de tactiele feedback van een trilling onder je vinger, vertelt dit systeem je wanneer dingen goed of fout zijn en biedt het eenvoudige manieren om het te repareren.
 
-## Creating a budget
+## Een budget maken
 
-If you are **creating a budget for the first time**, here's how that works:
+Als je voor de **eerste keer een budget maakt**, werkt het zo:
 
-1. Your total **account balance** is available to budget. It knows how much cash you have currently, and that is all you can currently budget. (Remember, your budget is always based on your current money!)
-2. Click on the **budgeted** column of a category and enter a number for what you think you'll spend that month. **Tip**: don't overthink it. You can always adjust it later.
-3. Continue to budget until the **To budget** amount is **0**.
-4. You can also [customize the categories](./categories.md).
+1. Je totale **rekeningbalans** is beschikbaar om te budgetteren. Het weet hoeveel contant geld je momenteel hebt, en dat is alles wat je momenteel kunt budgetteren. (Onthoud, je budget is altijd gebaseerd op je huidige geld!)
+2. Klik op de **begrootte** kolom van een categorie en voer een getal in voor wat je denkt dat je die maand zult uitgeven. **Tip**: denk er niet te veel over na. Je kunt het altijd later aanpassen.
+3. Ga door met budgetteren totdat het **Te budgetteren** bedrag **0** is.
+4. Je kunt ook [de categorieën aanpassen](./categories.md).
 
-## The budgeting workflow
+## De budgetteringsworkflow
 
-Here's the important part: **your budget is not static**. It's not something you set and forget. Maybe you check in and realize your food budget is busted because you hosted a dinner party. No problem — just move money from somewhere else to cover it.
+Hier is het belangrijke deel: **je budget is niet statisch**. Het is niet iets dat je instelt en vergeet. Misschien check je in en realiseer je dat je voedselbudget is gebarsten omdat je een etentje hebt georganiseerd. Geen probleem - verplaats gewoon geld van ergens anders om het te dekken.
 
-Maybe when the next month starts, you see that your budget didn't really work. Make a new budget based off what you learned!
+Misschien zie je, als de volgende maand begint, dat je budget niet echt werkte. Maak een nieuw budget op basis van wat je hebt geleerd!
 
-At a high-level, using the budget looks like this:
+Op een hoog niveau ziet het gebruik van het budget er zo uit:
 
-1. Every so often, import new transactions and categorize them.
-2. Check your budget. If you've already overspent somewhere, you can move money from another category to cover it, or you can wait to cover it next month.
-3. If there's any new income, either add it to your current budget or (most likely) hold it for next month.
-4. At the end of the month, create a new budget for next month. Usually, you will use income available from last month to cover the new budget. You will quickly see how much you saved by seeing the leftover **To budget** amount after budgeting for the new month.
-5. Move your leftover saved amount into something like a savings category or anything you are saving up for.
+1. Importeer zo nu en dan nieuwe transacties en categoriseer ze.
+2. Controleer je budget. Als je al ergens te veel hebt uitgegeven, kun je geld van een andere categorie verplaatsen om het te dekken, of je kunt wachten om het volgende maand te dekken.
+3. Als er nieuw inkomen is, voeg het dan toe aan je huidige budget of (meestal) hou het voor de volgende maand.
+4. Maak aan het einde van de maand een nieuw budget voor de volgende maand. Meestal zal je het beschikbare inkomen van de vorige maand gebruiken om het nieuwe budget te dekken. Je ziet snel hoeveel je hebt bespaard door het overgebleven **Te budgetteren** bedrag te zien na het budgetteren voor de nieuwe maand.
+5. Verplaats je overgebleven bespaarde bedrag naar iets als een spaarcategorie of iets waarvoor je spaart.
 
-## How money rolls over
 
-### Income
+## Hoe geld doorschuift
 
-When you add income for a month, it becomes immediately available to budget. You will see it in the **Available Funds** number at the top of the month. If you don't budget it for this month, it will roll over to the next month and appear in the same **Available Funds** number for that month. You can hover over that number and a popup will show which income came from previous months and the current month.
+### Inkomen
 
-Most likely, a common workflow will be to "hold" income you make this month for next month's budget. **Optionally, to hold money instead of budgeting it for a month:**
+Wanneer je inkomen toevoegt voor een maand, wordt het onmiddellijk beschikbaar om te budgetteren. Je zult het zien in het nummer **Beschikbare Fondsen** bovenaan de maand. Als je het niet budgetteert voor deze maand, zal het doorschuiven naar de volgende maand en verschijnen in hetzelfde nummer **Beschikbare Fondsen** voor die maand. Je kunt met de muis over dat nummer bewegen en een pop-up zal laten zien welk inkomen afkomstig is van vorige maanden en de huidige maand.
 
-1.  Click the **To Budget** amount.
-2.  Select **Hold for next month** in the menu.
+Waarschijnlijk zal een veelvoorkomende workflow zijn om het inkomen dat je deze maand verdient "vast te houden" voor het budget van de volgende maand. **Optioneel, om geld vast te houden in plaats van het te budgetteren voor een maand:**
+
+1.  Klik op het bedrag **Te Budgetteren**.
+2.  Selecteer **Vasthouden voor volgende maand** in het menu.
 
 ![](/img/how-it-works/buffer-1.png)
 
-3.  Press <Key k="enter" /> to hold all available money, or enter a custom amount to hold.
+3.  Druk op <Key k="enter" /> om al het beschikbare geld vast te houden, of voer een aangepast bedrag in om vast te houden.
 
-This doesn't do anything except takes out money from the **To Budget** amount for that month, allowing you to "zero it out" and mark it to be used for later. That money will appear in next month's **To Budget**.
+Dit doet niets anders dan geld uit het bedrag **Te Budgetteren** voor die maand halen, waardoor je het kunt "nulstellen" en markeren om later te gebruiken. Dat geld zal verschijnen in het **Te Budgetteren** van de volgende maand.
 
-Using Hold for Next Month will ensure that the funds are no longer available to budget in the current month but can still be allocated to the budget in any subsequent month. This will be particularly useful for those who are looking to stop living paycheck to paycheck and instead gradually get one month ahead i.e. living on last month’s income rather than this month’s.
+Het gebruik van Vasthouden voor Volgende Maand zal ervoor zorgen dat de fondsen niet langer beschikbaar zijn om te budgetteren in de huidige maand, maar nog steeds toegewezen kunnen worden aan het budget in een volgende maand. Dit zal met name nuttig zijn voor mensen die willen stoppen met leven van loonstrook naar loonstrook en in plaats daarvan geleidelijk een maand vooruit willen komen, d.w.z. leven van het inkomen van de vorige maand in plaats van deze maand.
 
-You can also just leave the **To Budget** amount alone.
+Je kunt ook gewoon het bedrag **Te Budgetteren** met rust laten.
 
-It is possible to hold money multiple months ahead. If you do this, those dollars will be delay to be budgeted until the last month of the hold. If you need to use that money in the current month to cover over spending, use the **Reset Next Months Buffer** button to bring that money to the current month. This needs to be done for each month there is a hold.
+Het is mogelijk om geld meerdere maanden vooruit vast te houden. Als je dit doet, zullen die dollars worden vertraagd om te worden gebudgetteerd tot de laatste maand van de vasthoudperiode. Als je dat geld in de huidige maand moet gebruiken om overbesteding te dekken, gebruik dan de knop **Reset Volgende Maanden Buffer** om dat geld naar de huidige maand te brengen. Dit moet worden gedaan voor elke maand waarin een vasthoudperiode is.
 
 :::note
-If you enter a new month and have a negative "To Be Budgeted" amount and you're sure it should be positive, try resetting next month's buffer to bring money that may be held back to the current month.
+Als je een nieuwe maand ingaat en een negatief "Te Budgetteren" bedrag hebt en je zeker weet dat het positief moet zijn, probeer dan de buffer van de volgende maand te resetten om geld dat mogelijk wordt vastgehouden terug te brengen naar de huidige maand.
 :::
 
-### Overspending
+### Overbesteding
 
-When you overspend in a category, that needs to rollover as well. You spent money that wasn't budgeted, so now you need to go back and take it out from somewhere. Doing this keeps your budget in tact.
+Wanneer je te veel uitgeeft in een categorie, moet dat ook doorgeschoven worden. Je hebt geld uitgegeven dat niet was gebudgetteerd, dus nu moet je teruggaan en het ergens vandaan halen. Dit houdt je budget intact.
 
-One way to do this would be to simply roll it over into next month's budget for that category, subtracting it from the available amount. This hardly ever works in real life — if you have a food budget it's highly unlikely you'll be able go under it next month just because you overspent.
+Een manier om dit te doen zou zijn om het gewoon door te rollen naar het budget van de volgende maand voor die categorie, door het af te trekken van het beschikbare bedrag. Dit werkt zelden in het echte leven - als je een voedselbudget hebt, is het zeer onwaarschijnlijk dat je er volgende maand onderdoor kunt gaan alleen omdat je teveel hebt uitgegeven.
 
-Usually you have a couple places that you draw money from to cover overspending. To make it easy, **all overspending is automatically taken out of next month's To budget amount**, and category balances are reset to zero. This makes it easy to make up for it by reducing your budget in some other category (like savings).
+Meestal heb je een paar plaatsen waar je geld vandaan haalt om overbesteding te dekken. Om het gemakkelijk te maken, **wordt alle overbesteding automatisch uit het "Te Budgetteren" bedrag van de volgende maand gehaald**, en de saldi van de categorieën worden gereset naar nul. Dit maakt het gemakkelijk om het goed te maken door je budget in een andere categorie (zoals besparingen) te verlagen.
 
-If there is money leftover in a category at the end of a month, it simply rolls over into the category's balance next month.
+Als er aan het einde van een maand geld overblijft in een categorie, rolt het eenvoudigweg over naar het saldo van de categorie van de volgende maand.
 
-## Working with the budget
+## Werken met het budget
 
-### Moving money around
+### Geld verplaatsen
 
-You can move money between categories, as well as between the **To budget** amount and categories.
+Je kunt geld verplaatsen tussen categorieën, evenals tussen het bedrag **Te Budgetteren** en categorieën.
 
-1. Click an amount in the **Balance** column for a category.
-2. Select **Transfer to another category**.
-3. Enter an amount you would like move, select the target category (or **To budget**), and click **Transfer**.
-4. Your budget will be updated with the new amounts.
+1. Klik op een bedrag in de kolom **Saldo** voor een categorie.
+2. Selecteer **Overboeken naar een andere categorie**.
+3. Voer een bedrag in dat je wilt verplaatsen, selecteer de doelcategorie (of **Te Budgetteren**), en klik op **Overboeken**.
+4. Je budget wordt bijgewerkt met de nieuwe bedragen.
 
-You can also click the **To budget** amount and transfer to a category.
+Je kunt ook op het bedrag **Te Budgetteren** klikken en overboeken naar een categorie.
 
-### Creating new budgets for the next month
+### Nieuwe budgetten maken voor de volgende maand
 
-You need to create a new budget each time a new month begins. It wouldn't make sense for categories to be budgeted for that month already since cash needs to come from somewhere. Hopefully, by the time a new month rolls around you've got enough income from last month to create another budget month:
+Je moet elke keer een nieuw budget maken als er een nieuwe maand begint. Het zou geen zin hebben dat er voor die maand al categorieën gebudgetteerd zijn, omdat het geld ergens vandaan moet komen. Hopelijk heb je tegen de tijd dat er een nieuwe maand aanbreekt genoeg inkomen van de vorige maand om een nieuwe budgetmaand te creëren:
 
-1. One option is to go through all of the **Budgeted** amounts and enter amounts again.
-2. To speed this up, use budget shortcuts. Click the 3-dot menu in the top-right of a budget month and select **Copy last month's budget** to use the same budget as last month.
-3. Other options in the menu will fill in the budget with various amounts.
+1. Eén optie is om alle bedragen **Gebudgetteerd** door te nemen en de bedragen opnieuw in te voeren.
+2. Om dit te versnellen, gebruik je budget snelkoppelingen. Klik op het 3-puntjes menu in de rechterbovenhoek van een budgetmaand en selecteer **Kopieer het budget van vorige maand** om hetzelfde budget als vorige maand te gebruiken.
+3. Andere opties in het menu zullen het budget invullen met verschillende bedragen.
 
-### Rollover negative category balances
+### Negatieve categoriebalansen doorschuiven
 
-Sometimes you want to keep a negative balance in a category across months. The most common reason is to keep track of reimbursable expenses.
+Soms wil je een negatief saldo in een categorie over meerdere maanden behouden. De meest voorkomende reden is om bij te houden welke kosten vergoed moeten worden.
 
-1. Click an amount in the **Balance** column for a category.
-2. Select **Keep negative spending in category**
-3. For all future months, a negative balance will stay in the category
+1. Klik op een bedrag in de kolom **Saldo** voor een categorie.
+2. Selecteer **Negatieve uitgaven in categorie behouden**.
+3. Voor alle toekomstige maanden zal een negatief saldo in de categorie behouden blijven.
 
-## Recommended workflow for new users
+## Aanbevolen workflow voor nieuwe gebruikers
 
-This might sound complex, but it's really not! You can get as detailed as you want, but it's still very effective if you keep it simple. If you're not sure where to start, we recommend this simple workflow:
+Dit klinkt misschien complex, maar dat is het echt niet! Je kunt zo gedetailleerd zijn als je wilt, maar het blijft zeer effectief als je het simpel houdt. Als je niet zeker weet waar je moet beginnen, raden we deze eenvoudige workflow aan:
 
-1. We recommend opening a savings account if you don't have one. Add it in Actual as an off-budget account.
-2. Stick with the basic categories (you will probably add a few more, but don't overdo it).
-3. Try to budget less than what you are making so that you are saving money each month.
-4. When the month ends, copy last month's budget. Whatever is leftover in **To budget** is the amount of money that you saved.
-5. Note that this automatically will cover overspending from last month by taking it out of the leftover **To budget** amount. You're effectively taking out of savings.
-6. Budget the leftover **To budget** amount to the **Savings** category
-7. Transfer the leftover amount to your savings account and and categorize the transactions with the **Savings** category
+1. We raden aan om een spaarrekening te openen als je die nog niet hebt. Voeg het toe in Consumeer Bewust als een niet-begrootte rekening.
+2. Hou je aan de basis categorieën (je zult er waarschijnlijk nog een paar toevoegen, maar overdrijf het niet).
+3. Probeer minder te budgetteren dan wat je verdient zodat je elke maand geld spaart.
+4. Wanneer de maand eindigt, kopieer het budget van de vorige maand. Wat er overblijft in **Te budgetteren** is het geld dat je hebt gespaard.
+5. Merk op dat dit automatisch de overuitgaven van vorige maand zal dekken door het uit de overgebleven **Te budgetteren** bedrag te halen. Je neemt in feite geld uit je spaargeld.
+6. Budgetteer het overgebleven **Te budgetteren** bedrag naar de **Sparen** categorie.
+7. Maak het overgebleven bedrag over naar je spaarrekening en categoriseer de transacties met de **Sparen** categorie.
 
-If you don't have a savings account, you can simply skip step 6. The **Savings** category will build up a balance and represent the savings that you are keeping in your account.
+Als je geen spaarrekening hebt, kun je stap 6 gewoon overslaan. De **Sparen** categorie zal een balans opbouwen en vertegenwoordigt de besparingen die je op je rekening houdt.
 
-This also assumes you have enough income to cover a full month plus any overspending. If you don't, you need to watch your budget more carefully and make sure to cover overspending from other categories.
+Dit gaat er ook van uit dat je genoeg inkomen hebt om een volle maand plus eventuele overuitgaven te dekken. Als dat niet zo is, moet je je budget zorgvuldiger in de gaten houden en ervoor zorgen dat je overuitgaven uit andere categorieën dekt.

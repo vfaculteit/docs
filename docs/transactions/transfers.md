@@ -1,23 +1,23 @@
-# Transfers
+# Overboekingen
 
-If you want to transfer money between accounts, you want to do it in a way that doesn't mess up reports. If you only created two transactions, Actual would have no way of knowing they are a single transfer and can be ignored in reports.
+Als je geld wilt overboeken tussen rekeningen, wil je dat op een manier doen die geen invloed heeft op rapporten. Als je alleen twee transacties zou aanmaken, zou Consumeer Bewust geen manier hebben om te weten dat ze een enkele overboeking zijn en genegeerd kunnen worden in rapporten.
 
-When you create a transfer in Actual, those two transactions are linked and updating one always automatically updates the other. For example, if you typed something into the **Notes** column it would appear in both transactions.
+Wanneer je een overboeking aanmaakt in Consumeer Bewust, worden die twee transacties gelinkt en het bijwerken van de ene wordt altijd automatisch bijgewerkt in de andere. Bijvoorbeeld, als je iets typt in de **Opmerkingen** kolom, zou het in beide transacties verschijnen.
 
-## Creating a transfer
+## Een overboeking aanmaken
 
-In the **Payee** field of a transaction, choose the account in the dropdown you want to transfer to/from. You can press **Make Transfer** if you want to just see a list of accounts and hide other payees.
+In het **Betrokken Partij** veld van een transactie, kies je in de dropdown de rekening waarnaar je wilt overboeken. Je kunt op **Maak Overboeking** drukken als je alleen een lijst met rekeningen wilt zien en andere betrokken partijen wilt verbergen.
 
 :::caution
-A transaction in the corresponding account will automatically be created.
+Er wordt automatisch een transactie aangemaakt in de corresponderende rekening.
 :::
 
-If you are importing files, it is recommended to import into a single account and create the transfer first, and then import the second account. This way the transaction in the second account is automatically reconciled to the transfer transaction. If you imported to both accounts first, creating the transfer would create a duplicate transaction.
+Als je bestanden importeert, is het aanbevolen om eerst in een enkele rekening te importeren en de overboeking aan te maken, en dan de tweede rekening te importeren. Op deze manier wordt de transactie in de tweede rekening automatisch verrekend met de overboekingstransactie. Als je eerst naar beide rekeningen zou importeren, zou het aanmaken van de overboeking een dubbele transactie creëren.
 
-## Deleting a transfer
+## Een overboeking verwijderen
 
-Delete a transfer the same way you delete any transaction: hover over it and press the **X** on the left. Deleting a transfer transactions always deletes both transactions in each account.
+Verwijder een overboeking op dezelfde manier als je elke transactie verwijdert: hover erover en druk op de **X** aan de linkerkant. Het verwijderen van een overboekingstransactie verwijdert altijd beide transacties in elke rekening.
 
-## Payee rules
+## Regels voor betrokken partijen
 
-Transfers are actually just custom payees, so if you want to you can [create custom rules for them](./payees.md#transfer-payees).
+Overboekingen zijn eigenlijk gewoon aangepaste betrokken partijen, dus als je wilt kun je [aangepaste regels voor ze aanmaken](./payees.md#transfer-payees).

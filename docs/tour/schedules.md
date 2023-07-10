@@ -1,5 +1,5 @@
-# Schedules
+# Schema's
 
-The schedules screen is an advanced section of Actual that is covered in more detail in out [Schedules](../budgeting/schedules.md) section, however let's have a look at what each part of the interface does here.
+Het scherm van de schema's is een geavanceerd onderdeel van Consumeer Bewust dat in meer detail wordt behandeld in onze [Schema's](../budgeting/schedules.md) sectie, maar laten we hier eens kijken wat elk onderdeel van de interface doet.
 
 ![](/img/schedules/schedules-1.png)

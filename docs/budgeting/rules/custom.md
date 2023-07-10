@@ -1,15 +1,15 @@
-# Supercharge your Budget
+# Versterk uw Budget
 
-This page has examples of custom rules that some of our users have found useful for their own budgets. If you have any custom rules you're proud of, click the “Edit this page” button below to propose adding them to this page [tell us about them](/contact)!
+Op deze pagina vindt u voorbeelden van aangepaste regels die sommige van onze gebruikers nuttig hebben gevonden voor hun eigen budgetten. Als u aangepaste regels heeft waar u trots op bent, klik dan op de knop "Bewerk deze pagina" hieronder om voor te stellen ze aan deze pagina toe te voegen [vertel ons erover](/contact)!
 
-**Q: How do I set a default account when I add transactions?**
+**V: Hoe stel ik een standaardaccount in wanneer ik transacties toevoeg?**
 
-**A:** Set a **Pre** rule to check for an empty account field. When entering a transaction in the "All Accounts" ledger or from the ledger of a Category listing, your preferred default account will be auto filled.
+**A:** Stel een **Voor** regel in om te controleren op een leeg accountveld. Bij het invoeren van een transactie in het "Alle Accounts" grootboek of vanuit het grootboek van een Categorie-overzicht, wordt uw voorkeursstandaardaccount automatisch ingevuld.
 
 ![](/img/rules-custom/custom-rules-1.png)
 
-**Q: I have accounts (like cash or Venmo) that instantly “clear” at the moment of purchase. How can I automate toggling the "cleared" status?**
+**V: Ik heb accounts (zoals contant geld of Venmo) die onmiddellijk "vrijgeven" op het moment van aankoop. Hoe kan ik het schakelen van de status "vrijgegeven" automatiseren?**
 
-**A:** Set a **Post** rule to check for your account or accounts where instant transactions can be made, set the action to "cleared", and select the checkbox. Cash or Venmo are typical examples of this type of account. Any time a transaction is added to the accounts listed in this rule, those transactions will automatically get a cleared state from now on.
+**A:** Stel een **Na** regel in om te controleren op uw account of accounts waar directe transacties kunnen worden gedaan, stel de actie in op "vrijgegeven", en selecteer het selectievakje. Contant geld of Venmo zijn typische voorbeelden van dit soort accounts. Telkens wanneer een transactie aan de in deze regel vermelde accounts wordt toegevoegd, krijgen die transacties vanaf nu automatisch een vrijgegeven status.
 
 ![](/img/rules-custom/custom-rules-2.png)

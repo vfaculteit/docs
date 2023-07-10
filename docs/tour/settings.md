@@ -1,46 +1,40 @@
-# Settings
+# Instellingen
 
-The settings screens in Actual provide you with a number of options for managing the look and feel of your budget along with some more system specific settings.
-
-![](/img/using-actual/settings-1.png)
-
-### Formatting
-
-The formatting options allow you to select the following;
-
-- Your preferred date format
-- Your preferred number format
+De instellingsschermen in Consumeer Bewust bieden u een aantal opties voor het beheren van de look en feel van uw budget, samen met enkele meer systeemspecifieke instellingen.
 
 ![](/img/using-actual/settings-1.png)
 
-### Encryption
+### Opmaak
 
-End to End Encryption is not actually available in Actual version 20.10.25, this is due to the way the Sync system was working, we are working on re-enabling this feature and will update this documentation once that is available.
+De opmaakopties laten u het volgende selecteren;
 
-![](/img/using-actual/settings-1.png)
-
-### Export
-
-Actual is local first, with this, it is possible to export your data from Actual, when you do this you will be given a zip file to download which will contain the SQLite database along with your budget.
+- Uw voorkeursdatumformaat
+- Uw voorkeursnummerformaat
 
 ![](/img/using-actual/settings-1.png)
 
-## Advanced Settings
+### Exporteren
+
+Consumeer Bewust is in eerste instantie lokaal, hiermee is het mogelijk om uw gegevens te exporteren uit Consumeer Bewust, als u dit doet krijgt u een zip-bestand om te downloaden, dat de SQLite-database samen met uw budget bevat.
+
+![](/img/using-actual/settings-1.png)
+
+## Geavanceerde Instellingen
 
 ### Budget ID
 
-Your Budget ID is a unique identifier that identifies the specific budget file that you have open, as you can have many budgets per install of Actual this allows you to identify which budget the data relates to.
+Uw Budget ID is een unieke identifier die het specifieke budgetbestand dat u open heeft identificeert, aangezien u veel budgetten per installatie van Consumeer Bewust kunt hebben, stelt dit u in staat om te identificeren op welk budget de gegevens betrekking hebben.
 
 ![](/img/using-actual/settings-2.png)
 
-### Reset Sync
+### Sync Resetten
 
-Resetting Sync is quite complicated, this is covered in detail [here](../getting-started/sync.md#what-does-resetting-sync-mean)
+Het resetten van Sync is vrij gecompliceerd, dit wordt [hier](../getting-started/sync.md#what-does-resetting-sync-mean) in detail behandeld.
 
 ![](/img/using-actual/settings-2.png)
 
-### Global
+### Globaal
 
-While these settings are available and by default checked, in the Open Source version of actual they have no function.
+Hoewel deze instellingen beschikbaar zijn en standaard aangevinkt, hebben ze in de open-source versie van Consumeer Bewust geen functie.
 
 ![](/img/using-actual/settings-3.png)

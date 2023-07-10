@@ -1,22 +1,22 @@
-# Managing Files
+# Data beheren
 
-A _file_ is your data that consists of all budgets, transactions, accounts, and everything else. You can create as many files as you want. This lets you create multiple budgets, isolate accounts, and more.
+Een _bestand_ is jouw data die bestaat uit alle budgetten, transacties, rekeningen en alles anders. Je kunt zoveel bestanden aanmaken als je wilt. Dit laat je meerdere budgetten aanmaken, rekeningen isoleren, en meer.
 
 :::note
-These instructions relate exclusively to the desktop application
+Deze instructies hebben uitsluitend betrekking op de desktopapplicatie
 :::
 
-## Creating a new file
+## Een nieuw bestand aanmaken
 
 ### Desktop
 
-- On the desktop app, go to the file management screen from the **File** > **Open file…** menu item, or press <Key mod="cmd" k="o" />.
-- Click **Create new file**.
+- Op de desktop-app, ga naar het bestandsbeheerscherm vanuit het **Bestand** > **Open bestand…** menu-item, of druk op <Key mod="cmd" k="o" />.
+- Klik op **Nieuw bestand aanmaken**.
 
-## Delete a file
+## Een bestand verwijderen
 
-- On desktop, click the **X** next to the file on the file management screen.
+- Op de desktop, klik op het **X** naast het bestand op het bestandsbeheerscherm.
 
-## Renaming a file
+## Een bestand hernoemen
 
-Open the file, and click on the name in the top left of the app. You will be able to rename it.
+Open het bestand en klik op de naam in de linkerbovenhoek van de app. Je zult het kunnen hernoemen.

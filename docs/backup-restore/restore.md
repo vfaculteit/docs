@@ -1,71 +1,69 @@
-# Restoring Backups
+# Back-ups herstellen
 
-## Restoring a Manual Backup
+## Het herstellen van een handmatige back-up
 
-If you previously followed the [steps](./backup.md) to back up your data and have an Actual
-zip export, you can now import that using the web version of Actual.
+Als je eerder de [stappen](./backup.md) hebt gevolgd om je gegevens te back-uppen en je hebt een Consumeer Bewust zip-export, kun je deze nu importeren met de webversie van Consumeer Bewust.
 
-To do this,
+Om dit te doen,
 
-1. login to your budget, then in the top right corner click 'Server'
+1. log in op je budget, klik dan in de rechterbovenhoek op 'Server'
 
    ![](/img/restore/actual-config-7.png)
 
-1. Then select Logout
+2. Selecteer vervolgens Uitloggen
 
    ![](/img/restore/actual-config-8.png)
 
-1. Log back into your instance of Actual
+3. Log opnieuw in op je instance van Consumeer Bewust
 
    ![](/img/restore/actual-config-9.png)
 
-1. From the next screen select Import File
+4. Selecteer op het volgende scherm Importeer Bestand
 
    ![](/img/migrating/actual-import-1.png)
 
-1. Select Actual and then locate your Zip file, this will then import what you previously exported into
-   Actual.
+5. Selecteer Consumeer Bewust en lokaliseer dan je Zip-bestand, dit zal vervolgens importeren wat je eerder geëxporteerd hebt naar Consumeer Bewust.
 
    ![](/img/migrating/actual-import-2.png)
 
-That is it. A fresh budget will show in your budget list. If the imported data is a copy of your current budget, you may want to rename the new budget by clicking on it's name so you can tell them apart. Once you verify the new imported budget is correct, you can navigate back to the budget selection screen by closing the current budget and deleting the old copy.
+Dat is alles. Een nieuw budget zal verschijnen in je budgetlijst. Als de geïmporteerde gegevens een kopie zijn van je huidige budget, wil je misschien het nieuwe budget een andere naam geven door op de naam te klikken zodat je ze uit elkaar kunt houden. Zodra je hebt geverifieerd dat het nieuwe geïmporteerde budget correct is, kun je terugnavigeren naar het budget selectiescherm door het huidige budget te sluiten en de oude kopie te verwijderen.
 
-## Errors When Restoring Database From Backup
-It is possible that you may encounter an error during restoration that says:
+## Fouten bij het herstellen van database vanuit back-up
+Het is mogelijk dat je een fout tegenkomt tijdens het herstellen die zegt:
 
-`This budget cannot be loaded with this version of the app. Make sure the app is up-to-date.`
+`Dit budget kan niet geladen worden met deze versie van de app. Zorg ervoor dat de app up-to-date is.`
 
-This should only happen when you're upgrading from a Docker image with the `edge` tag to a stable release, such as `latest`. This should not happen in other instances. If you find yourself seeing this bug, please submit a bug report.
+Dit zou alleen moeten gebeuren als je upgradet van een Docker-image met de `edge` tag naar een stabiele release, zoals `latest`. Dit zou in andere gevallen niet moeten gebeuren. Als je deze bug tegenkomt, stuur dan alstublieft een bug report in.
 
-**IMPORTANT NOTE**: You *MUST* download a backup of each of your budgets using the process outlined above **before** continuing. It's always good practice to backup your data before upgrading to a new verison.
+**BELANGRIJKE OPMERKING**: Je *MOET* een back-up downloaden van elk van je budgetten met het bovenstaande proces **voordat** je verder gaat. Het is altijd goed om een back-up van je gegevens te maken voordat je upgradet naar een nieuwe versie.
 
-The fix for this is to manually migrate the your sqlite database in the steps outlined below:
+De oplossing hiervoor is om handmatig je sqlite-database te migreren met de onderstaande stappen:
 
-1. Download and install [SQLite Browser](https://sqlitebrowser.org/)
-1. Unzip the backup budget `.zip` file. The filename should look like: `yyyy-mm-dd-My-Finances-abcd1234.zip`
-1. Open SQLite Browser. Click on the "Open Database" button and navigate to the file you just unzipped. You're looking for a file named `db.sqlite`.
-1. Load the file and click on the `Browse Data` tab. Select the `__migrations__` table from the table dropdown menu.
-1. You should see a list of integers under the column labeled `id`. Cross-reference the entries in this table with the list of [database migrations](https://github.com/actualbudget/actual/tree/master/packages/loot-core/migrations) in the main Actual repository.
-1. For every integer that's missing, you'll want to click on the `.sql` file associated with it and copy the raw data.
-1. Run the sql query in the Execute tab of SQLite Browser. Be sure to check the output that the command was successful.
-1. If the sql query that you copied is successful, you'll want to insert the migration command's id into the `__migrations__` table by executing `insert into __migrations__ values(id_of_missing_migration_command);`.
-1. Once your `__migrations__` table matches the database migrations folder, commit and close the database.
-1. Rezip your modified `db.sqlite` and `metadata.json` files into a zip file.
-1. Retry the restore process outlined above.
+1. Download en installeer [SQLite Browser](https://sqlitebrowser.org/)
+2. Pak het back-up budget `.zip` bestand uit. De bestandsnaam zou er zo uit moeten zien: `yyyy-mm-dd-Mijn-Financiën-abcd1234.zip`
+3. Open SQLite Browser. Klik op de knop "Open Database" en navigeer naar het bestand dat je zojuist hebt uitgepakt. Je zoekt naar een bestand genaamd `db.sqlite`.
+4. Laad het bestand en klik op het tabblad `Browse Data`. Selecteer de `__migrations__` tafel uit het dropdown menu van de tabel.
+5. Je zou een lijst met gehele getallen moeten zien onder de kolom gelabeld `id`. Kruisreferentieer de vermeldingen in deze tabel met de lijst van [database migraties](https://github.com/actualbudget/actual/tree/master/packages/loot-core/migrations) in de main Consumeer Bewust repository.
+6. Voor elk getal dat ontbreekt, wil je klikken op het bijbehorende `.sql` bestand en de ruwe data kopiëren.
+7. Voer de sql-query uit in het Execute tabblad van SQLite Browser. Zorg ervoor dat je controleert dat het commando succesvol was.
+8. Als de sql-query die je gekopieerd hebt succesvol is, wil je de id van het migratiecommando invoegen in de `__migrations__` tabel door `insert into __migrations__ values(id_of_missing_migration_command);` uit te voeren.
+9. Wanneer je `__migrations__` tabel overeenkomt met de database migraties map, commit en sluit de database.
+10. Rits je gewijzigde `db.sqlite` en `metadata.json` bestanden weer in een zip-bestand.
+11. Probeer het herstelproces hierboven opnieuw uit te voeren.
 
-## Automatic Backups
+## Automatische Back-ups
 
 :::caution
-Automatic backups are currently only available in the (beta) desktop app.
+Automatische back-ups zijn momenteel alleen beschikbaar in de (bèta) desktop-app.
 :::
 
-Actual keeps backups of your data locally. If something disastrous happens, you can always load a recent backup to get your data back.
+Consumeer Bewust houdt lokaal back-ups van je gegevens bij. Als er iets rampzaligs gebeurt, kun je altijd een recente back-up laden om je gegevens terug te krijgen.
 
-Currently it keeps up to 10 backups, one per day of usage of the app, multiple backups of the current day. The result is you will have data backed **up to the last 15 minutes**, in addition to the last 10 days you used the app.
+Momenteel bewaart het tot 10 back-ups, één per dag van gebruik van de app, meerdere back-ups van de huidige dag. Het resultaat is dat je gegevens tot **de laatste 15 minuten** hebt, naast de laatste 10 dagen dat je de app hebt gebruikt.
 
-### Loading an automatic backup
+### Het laden van een automatische back-up
 
-- Select the **File > Load Backup…** menu item
-- Choose the backup you want to load and select it
+- Selecteer het menu-item **Bestand > Back-up Laden...**
+- Kies de back-up die je wilt laden en selecteer deze
 
-The app will reload with the data from that backup. If you want to keep using that backup, you don't have to do anything else, just keep using the app. If you want to go back to the previous data, open the backup menu again and select **Revert to original version**. This option will be available until another backup is made.
+De app zal opnieuw laden met de gegevens van die back-up. Als je die back-up wilt blijven gebruiken, hoef je niets anders te doen, blijf gewoon de app gebruiken. Als je terug wilt naar de vorige gegevens, open dan opnieuw het back-upmenu en selecteer **Terug naar originele versie**. Deze optie zal beschikbaar blijven tot er een andere back-up wordt gemaakt.

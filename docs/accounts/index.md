@@ -1,68 +1,68 @@
-# Overview
+# Overzicht
 
-You can add as many accounts as you like. Adding all of your accounts (including things like mortgages) is a nice way to get an overview of all your finances.
+Je kunt zoveel accounts toevoegen als je wilt. Het toevoegen van al je accounts (inclusief zaken als hypotheken) is een mooie manier om een overzicht te krijgen van al je financiën.
 
 ## Off-budget accounts
 
-Actual makes a distinction between accounts being **for** budget or **off** budget. Off budget accounts don't effect the budget and are meant to track stuff like investments and mortgages. Transactions in off budget accounts can't be categorized; they simply track balances over time.
+Consumeer Bewust maakt een onderscheid tussen accounts die **voor** budget zijn of **off** budget. Off-budget accounts hebben geen invloed op het budget en zijn bedoeld om zaken als investeringen en hypotheken bij te houden. Transacties in off-budget accounts kunnen niet worden gecategoriseerd; ze volgen simpelweg saldi over de tijd.
 
-**For budget** accounts affect the budget, and transactions can be categorized. These are accounts where you want to track cash flow and use the budget, like checking accounts and credit cards.
+**Voor budget** accounts beïnvloeden het budget, en transacties kunnen worden gecategoriseerd. Dit zijn accounts waar je de cashflow en het budget wilt volgen, zoals betaalrekeningen en creditcards.
 
-Depending on your usage, savings accounts can either be on or off the budget. If you're not sure, we recommend keeping it off the budget at the start.
+Afhankelijk van je gebruik kunnen spaarrekeningen wel of niet op het budget staan. Als je het niet zeker weet, raden we aan om het in het begin buiten het budget te houden.
 
-## Adding a new account
+## Een nieuwe account toevoegen
 
-You can add an account to your budget at any time, however when you first install Actual you can use the `Add Account` button in the middle of the screen.
+Je kunt op elk moment een account aan je budget toevoegen, maar als je Consumeer Bewust voor het eerst installeert, kun je de `Account toevoegen` knop in het midden van het scherm gebruiken.
 
 ![](/img/add-account/AddAccount.png)
 
-You can also add an account using the `+ Add account` button in the sidebar.
+Je kunt ook een account toevoegen met behulp van de `+ Account toevoegen` knop in de zijbalk.
 
-A box will appear asking you to fill in a few options
-- Create Local Account or Link to Nordigen (See Advanced/Connecting Your Bank)
-- Give your account a name
-- Is the account on or off budget
-- The current account balance
+Er verschijnt een vak waarin je wordt gevraagd een paar opties in te vullen
+- Lokale Account aanmaken of koppelen aan Nordigen (Zie Geavanceerd/Uw bank verbinden)
+- Geef je account een naam
+- Is de account on- of off-budget
+- Het huidige saldo van de account
 
 :::note
-Off budget means that the balance is not reflected when you assign money to categories in your budget register
+Off-budget betekent dat het saldo niet wordt weerspiegeld wanneer je geld toewijst aan categorieën in je budgetregister
 :::
 
 ![](/img/add-account/CreateAccount1.png)
 
 ![](/img/add-account/CreateAccount@2x.png)
 
-Here you can see how that looks when the options are completed.
+Hier kun je zien hoe dat eruitziet als de opties zijn ingevuld.
 
 :::note
-If you select the Off Budget checkbox then change the account type the Off Budget checkbox will reset and will need to be re-selected each time the account type is changed
+Als je het Off-budget selectievakje aanvinkt en vervolgens het rekeningtype wijzigt, wordt het Off-budget selectievakje gereset en moet het elke keer dat het rekeningtype wordt gewijzigd opnieuw worden geselecteerd
 :::
 
 ![](/img/add-account/NewBudget.png)
 
-You can now see the account in the sidebar of Actual
+Je kunt nu de account zien in de zijbalk van Consumeer Bewust
 
-## Closing or deleting an account
+## Een account sluiten of verwijderen
 
-1. Navigate to the account by clicking on it in the sidebar
-2. Click on the 3 dots (top right of the transactions list) to show the actions menu
-3. Select **Close Account**
-4. You need to select another account to transfer the existing balance to. Choose the account that you have moved funds to.
-5. Press **Close Account**
+1. Navigeer naar de account door erop te klikken in de zijbalk
+2. Klik op de 3 puntjes (rechtsboven in de transactielijst) om het actiemenu te tonen
+3. Selecteer **Account sluiten**
+4. Je moet een andere account selecteren om het bestaande saldo naar over te maken. Kies de account waarnaar je fondsen hebt overgeboekt.
+5. Druk op **Account sluiten**
 
-You can still access this account under **Closed Accounts** in the sidebar, and even reopen it from the same actions menu.
+Je kunt nog steeds toegang krijgen tot deze account onder **Gesloten Accounts** in de zijbalk, en je kunt het zelfs heropenen vanuit hetzelfde actiemenu.
 
-**If you want to delete an account** even if it has existing balances, in the popup after selecting **Close Account**, click the **force close** at the bottom.
+**Als je een account wilt verwijderen** zelfs als er nog bestaande saldi zijn, klik dan op **force close** onderaan in de popup na het selecteren van **Account sluiten**.
 
-## Renaming an existing account
+## Een bestaande account hernoemen
 
-Click the account name in the sidebar of Actual
+Klik op de accountnaam in de zijbalk van Consumeer Bewust
 
 ![](/img/add-account/SidebarAccountList@2x.png)
 
-Hovering your cursor close to the account name at the top will reveal two icons.  
-The page icon allows you to write a note about this account, and the pencil icon allows you to rename the account.
+Als je met je cursor dichtbij de accountnaam aan de bovenkant zweeft, verschijnen er twee pictogrammen.
+Het paginapictogram stelt je in staat om een notitie over deze account te schrijven, en het potloodpictogram stelt je in staat om de account te hernoemen.
 
-After editing a note for the account or its name, hit 'Enter' to save your changes.
+Nadat je een notitie voor de account of de naam hebt bewerkt, druk je op 'Enter' om je wijzigingen op te slaan.
 
 ![](/img/add-account/AccountNameEdit.png)

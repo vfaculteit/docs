@@ -1,57 +1,57 @@
-# Returns and Reimbursements
+# Retouren en terugbetalingen
 
-## Returns
+## Retouren
 
-We have all been there. We purchased something that looked great at the time, but unfortunately it was the wrong size, didn't fit the purpose just as we had imagined, or just decided that we don't really need it and now we have to return it. But how do we do that with our budget? The thing to remember is that even though money will be flowing **in** to your budget, it isn't income. You used a budget category when you bought the item, so the most appropriate method to return that money to the budget is to allow the return amount to flow directly back to the category that was used to purchase it.
+We hebben het allemaal meegemaakt. We kochten iets dat er op het moment geweldig uitzag, maar helaas was het de verkeerde maat, voldeed het niet aan onze verwachtingen, of we besloten gewoon dat we het niet echt nodig hadden en nu moeten we het terugsturen. Maar hoe doen we dat met ons budget? Het belangrijkste om te onthouden is dat hoewel er geld **binnenkomt** in je budget, het geen inkomen is. Je gebruikte een budgetcategorie toen je het item kocht, dus de meest geschikte methode om dat geld terug te geven aan het budget is om het retourbedrag rechtstreeks terug te laten vloeien naar de categorie die werd gebruikt voor de aankoop.
 
-You can see from this view, I've bought a pair of sandals from Amazon that I was really excited about...Until they didn't fit.
+Zoals je kunt zien, heb ik een paar sandalen van Amazon gekocht waar ik echt enthousiast over was... Totdat ze niet pasten.
 
 ![](/img/returns-reimbursements/returns-2.png)
 
-From the Budget screen, you can see I've spent every last dollar of my **clothing** category for the month.
+Vanuit het Budget scherm kun je zien dat ik elke laatste euro van mijn **kleding** categorie voor de maand heb uitgegeven.
 
 ![](/img/returns-reimbursements/returns-1.png)
 
-I didn't like those sandals as much as I thought I did. They made my feet look big. So I decided to return them a few days later. To enter the return, I fill out a nearly identical transaction in the account that will be credited. In my case, I had Amazon put the money back on my Debit card. Instead of putting the return amount in the **payment** column, I've entered the amount in the **Deposit** column. I also made sure that I chose **Clothing** as my category.
+Ik vond die sandalen niet zo leuk als ik dacht. Ze lieten mijn voeten groot lijken. Dus besloot ik ze een paar dagen later terug te sturen. Om de retour in te voeren, vul ik een bijna identieke transactie in op de rekening die gecrediteerd zal worden. In mijn geval liet ik Amazon het geld terugzetten op mijn Debit card. In plaats van het retourbedrag in de **betaling** kolom te zetten, heb ik het bedrag in de **Storting** kolom ingevuld. Ik heb er ook voor gezorgd dat ik **Kleding** als mijn categorie koos.
 
 ![](/img/returns-reimbursements/returns-3.png)
 
-Now when I check my budget, I have 32 dollars available to spend on clothing for the month.
+Nu, als ik mijn budget controleer, heb ik 32 euro beschikbaar om uit te geven aan kleding voor de maand.
 
 ![](/img/returns-reimbursements/returns-4.png)
 
-## Reimbursements
+## Terugbetalingen
 
-Handling reimbursements can be confusing. There are several ways to handle them in your budget and you may use each way at different times depending on the circumstances. When it comes to reimbursements, it is assumed you will be covering some purchases that you would not normally make in your normal monthly budget. Having a special category in your budget that captures these purchases is not uncommon. There are two fundamental ways to manage reimbursements. The first is by carrying debt and the second is to pre-fund the category. Ideally, carrying debt is a last resort. But if the reimbursable expense is large compared to your current on-budget account balances, there may be no other reasonable way.
+Het omgaan met terugbetalingen kan verwarrend zijn. Er zijn verschillende manieren om ze in je budget te verwerken en je kunt elke manier op verschillende momenten gebruiken, afhankelijk van de omstandigheden. Als het gaat om terugbetalingen, wordt ervan uitgegaan dat je enkele aankopen zult dekken die je normaal gesproken niet zou doen in je reguliere maandbudget. Het is niet ongebruikelijk om in je budget een speciale categorie te hebben die deze aankopen vastlegt. Er zijn twee fundamentele manieren om terugbetalingen te beheren. De eerste is door schulden te dragen en de tweede is om de categorie voor te financieren. Idealiter is schulden dragen een laatste redmiddel. Maar als de terugvorderbare uitgave groot is in vergelijking met je huidige op-budget rekening saldi, is er misschien geen andere redelijke manier.
 
-In this scenario, all of your reimbursable expenses would go to a credit card. Credit cards have negative balances in the account view until they are paid in full, because after all, they are a debt product. You will also want a category that is meant for these reimbursable expenses. Maybe a **Business** category or **Shared Expenses** category will fill that role. Whatever category name you choose, you need to make a decision. Will you be pre-funding this category and allowing it to draw down towards 0 until you're reimbursed or will you let the category be overdrawn and carry a negative balance and then refill the category when you are reimbursed.
+In dit scenario gaan al je terugvorderbare uitgaven naar een creditcard. Creditcards hebben negatieve saldi in het accountoverzicht totdat ze volledig zijn betaald, want per slot van rekening zijn het schuldproducten. Je wilt ook een categorie die bedoeld is voor deze terugvorderbare uitgaven. Misschien vult een **Zakelijk** categorie of **Gedeelde Uitgaven** categorie die rol. Welke categorienaam je ook kiest, je moet een beslissing nemen. Ga je deze categorie voorfinancieren en laat je het saldo richting 0 gaan tot je wordt terugbetaald of laat je de categorie overtrokken zijn en draag je een negatief saldo en dan vul je de categorie weer aan als je wordt terugbetaald.
 
-### Pros of pre-funding
+### Voordelen van voorfinancieren
 
-This is the true zero-budget way. Pre-funding is just budgeting. You know you're going to spend some money, so you allocate money to spend. The end.
+Dit is de echte nul-budget manier. Voorfinancieren is gewoon budgetteren. Je weet dat je wat geld gaat uitgeven, dus je reserveert geld om uit te geven. Het einde.
 
-### Cons of pre-funding
+### Nadelen van voorfinancieren
 
-It ties up available cash and you may not be able to fund other categories as fully as you would like.
+Het bindt beschikbaar contant geld en je kunt andere categorieën misschien niet zo volledig financieren als je zou willen.
 
-### Pros of not pre-funding
+### Voordelen van niet voorfinancieren
 
-Your regular categories can be funded at normal levels.
+Je reguliere categorieën kunnen op normale niveaus worden gefinancierd.
 
-### Cons of not pre-funding
+### Nadelen van niet voorfinancieren
 
-You don't have a zero based budget. This is essentially debt spending since you aren't allocating money to cover the expenses. If you spend too much on debt, you could run into a situation where you overdraft or start carrying a balance on a credit card.
+Je hebt geen nul-gebaseerd budget. Dit is in wezen schulduitgaven aangezien je geen geld toewijst om de uitgaven te dekken. Als je te veel uitgeeft aan schulden, kun je in een situatie terechtkomen waarin je rood staat of een saldo op een creditcard begint te dragen.
 
-### Cover the spending by end-of-month or rollover
+### Dek de uitgaven aan het einde van de maand of rol over
 
-Ultimately this is a personal decision. If you are capable, there is less short term risk if the category is pre-funded. If you choose to let the category remain negative and fill it up when you are reimbursed, don't forget to toggle the "Rollover Spending" option on the category just in case you aren't reimbursed in the same month. If you already carry a credit card balance month-to-month, cover the reimbursable overspending by the credit card category so when you pay the credit card bill it's a little easier to manage.
+Uiteindelijk is dit een persoonlijke beslissing. Als je in staat bent, is er minder kortetermijnrisico als de categorie vooraf wordt gefinancierd. Als je ervoor kiest om de categorie negatief te laten blijven en deze aan te vullen wanneer je wordt terugbetaald, vergeet dan niet de optie "Rollover Uitgaven" op de categorie in te schakelen voor het geval je niet dezelfde maand wordt terugbetaald. Als je al een maandelijks saldo op een creditcard draagt, dek dan de terugvorderbare overuitgaven af met de creditcardcategorie zodat het iets gemakkelijker te beheren is wanneer je de creditcardrekening betaalt.
 
 ![](/img/returns-reimbursements/reimbursement-1.png)
 
-Once enabled, a little arrow will be shown next to the each row's 'Balance' sum in the Budget view. It signals that over spending will be carried over from month to month. Check out the [overspending](./index.md#overspending) section in "How Budgeting Works" for an explanation of this feature.
+Eens ingeschakeld, zal er een klein pijltje getoond worden naast het 'Saldo' totaal van elke rij in het Budget overzicht. Het geeft aan dat overuitgaven van maand tot maand worden overgedragen. Bekijk het [overuitgaven](./index.md#overspending) gedeelte in "Hoe Budgetteren Werkt" voor een uitleg van deze functie.
 
 ![](/img/returns-reimbursements/reimbursement-2.png)
 
-### Adding the reimbursement transaction
+### Het toevoegen van de terugbetalings transactie
 
-When you are reimbursed, you can use the same technique from the Returns section. Add a new transaction to the account the reimbursement is being deposited and choose the category you used to track your spending.
+Wanneer je wordt terugbetaald, kun je dezelfde techniek gebruiken uit de Retouren sectie. Voeg een nieuwe transactie toe aan de rekening waarop de terugbetaling wordt gestort en kies de categorie die je gebruikte om je uitgaven bij te houden.

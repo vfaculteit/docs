@@ -1,13 +1,13 @@
-# The Sidebar
+# De Zijbalk
 
-### Sidebar
+### Zijbalk
 
-The sidebar in Actual holds all of the links to navigate around the application, we will break them down below.
+De zijbalk in Consumeer Bewust bevat alle links om door de applicatie te navigeren, we zullen ze hieronder uiteenzetten.
 
 ![](/img/using-actual/budget-sidebar.png)
 
-### Account List
+### Account Lijst
 
-The sidebar also holds all of your accounts both on and off budget, these will display in a list under the heading they belong E.G On Budget. You can find out how to add an account [here](../accounts/index.md#adding-a-new-account)
+De zijbalk bevat ook al uw accounts, zowel binnen als buiten het budget, deze worden weergegeven in een lijst onder de kop waartoe ze behoren, bijvoorbeeld Binnen Budget. U kunt hier lezen hoe u een account toevoegt [hier](../accounts/index.md#adding-a-new-account)
 
 ![](/img/using-actual/budget-sidebar-accounts.png)

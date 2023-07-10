@@ -1,92 +1,92 @@
-# Syncing Across Devices
+# Synchronisatie tussen apparaten
 
-Actual is a different kind of app. Instead of storing all of your data on the internet by default, it stores all of your data locally. That means it works regardless of your network connection, and you always have direct access to your data.
+Consumeer Bewust is een ander soort app. In plaats van al je gegevens standaard op het internet op te slaan, slaat het al je gegevens lokaal op. Dat betekent dat het werkt ongeacht je netwerkverbinding, en dat je altijd directe toegang hebt tot je gegevens.
 
-We don't want to throw away the internet though. It's too useful. When your data is stored in the cloud, you can access it from any device easily, and you never have to worry about losing your data in case you drop your laptop or phone into a lake.
+We willen het internet echter niet weggooien. Het is te nuttig. Wanneer je gegevens in de cloud zijn opgeslagen, kun je er gemakkelijk vanaf elk apparaat toegang toe krijgen, en hoef je je nooit zorgen te maken over het verliezen van je gegevens voor het geval je je laptop of telefoon in een meer laat vallen.
 
-That's why we automatically sync all of your data to your selected server in the background. You get the best of both worlds: all data is local by default, but if internet is available, your data is seamlessly backed up and synced to all other devices. This is the opposite of most apps which heavily rely on the internet to be available.
+Daarom synchroniseren we automatisch al je gegevens met je geselecteerde server op de achtergrond. Je krijgt het beste van beide werelden: alle gegevens zijn standaard lokaal, maar als internet beschikbaar is, worden je gegevens naadloos geback-upt en gesynchroniseerd met alle andere apparaten. Dit is het tegenovergestelde van de meeste apps die sterk afhankelijk zijn van de beschikbaarheid van het internet.
 
-For the super privacy-focused, it even allows for your data to be end-to-end encrypted so that all your server is doing is passing around changes.
+Voor de super privacy-gerichte personen, staat het zelfs toe dat je gegevens end-to-end versleuteld worden zodat al wat je server doet is het doorgeven van wijzigingen.
 
-## Getting started
+## Beginnen
 
-Once you are logged in, if you have not created a file yet it will automatically create one for you. Go ahead and poke around the app and start setting up your budget.
+Zodra je bent ingelogd, als je nog geen bestand hebt gemaakt, zal het er automatisch een voor je maken. Ga je gang en kijk rond in de app en begin met het opzetten van je budget.
 
-If you have already created files, after logging in Actual will show you all the available files. Select one and it will download it and start syncing seamlessly. That's it.
+Als je al bestanden hebt gemaakt, toont Consumeer Bewust na het inloggen alle beschikbare bestanden. Selecteer er een en het zal deze downloaden en naadloos beginnen met synchroniseren. Dat is het.
 
-## End-to-end encryption
+## End-to-end versleuteling
 
-In addition to the requirement to enter your password before the Actual server will allow you to access your budget, you can optionally enable end-to-end encryption. This will mean that you’ll have to enter a second password to access the budget, and that the server will no longer be able to access your budget information. On the one hand, this improves security if you’re worried that someone else will have access to the server’s file or if you don’t trust the server to check the password correctly (that said, we have done our best to make the server secure). On the other hand, you **will not be able to recover your data if you forget your encryption password**. If you forget the encryption password and you still have a copy of your data locally, you can reset your key which will do a [sync reset](#what-does-resetting-sync-mean) and generate a new key.
+Naast de vereiste om je wachtwoord in te voeren voordat de Consumeer Bewust server je toegang geeft tot je budget, kun je optioneel end-to-end versleuteling inschakelen. Dit betekent dat je een tweede wachtwoord moet invoeren om toegang te krijgen tot het budget, en dat de server niet langer toegang kan krijgen tot je budgetinformatie. Aan de ene kant, verbetert dit de beveiliging als je je zorgen maakt dat iemand anders toegang zal hebben tot het bestand van de server of als je de server niet vertrouwt om het wachtwoord correct te controleren (dat gezegd hebbende, we hebben ons best gedaan om de server veilig te maken). Aan de andere kant, **zal je niet in staat zijn om je gegevens te herstellen als je je versleutelingswachtwoord vergeet**. Als je het versleutelingswachtwoord vergeet en je nog een kopie van je gegevens lokaal hebt, kun je je sleutel resetten wat een [sync reset](#wat-betekent-het-resetten-van-synchronisatie) zal doen en een nieuwe sleutel zal genereren.
 
-End-to-end encryption offers the ability for you to generate a key based on a password and encrypt it so that hosted services can't read the data. Before your data leaves your device, it is encrypted using keys only you have.
+End-to-end versleuteling biedt de mogelijkheid om een sleutel te genereren op basis van een wachtwoord en het te versleutelen zodat gehoste diensten de gegevens niet kunnen lezen. Voordat je gegevens je apparaat verlaten, worden ze versleuteld met sleutels die alleen jij hebt.
 
-This guarantees that only you will ever have access to your data. This is optional and using it requires you to enter a password whenever downloading cloud files (this only needs to be done once per device). The password you enter can be different from the main server password.
+Dit garandeert dat alleen jij ooit toegang zal hebben tot je gegevens. Dit is optioneel en het gebruik ervan vereist dat je een wachtwoord invoert bij het downloaden van cloud-bestanden (dit hoeft maar één keer per apparaat te worden gedaan). Het wachtwoord dat je invoert kan verschillen van het hoofdserverwachtwoord.
 
-Data on your local device is still unencrypted. We recommend full disk encryption if you are interested in local encryption.
+Gegevens op je lokale apparaat zijn nog steeds niet versleuteld. We raden volledige schijfversleuteling aan als je geïnteresseerd bent in lokale versleuteling.
 
-There are some things to consider with end-to-end encryption:
+Er zijn enkele dingen om te overwegen bij end-to-end versleuteling:
 
-- **Pro:** Your data is fully secure and nobody except you can read it
-- **Pro:** If you don't want to sync across devices, this still allows you keep a fully encrypted backup of your data
-- **Pro:** If you want to share the server with someone else, you can use different passwords to encrypt separate budget files, and you won’t be able to access each other’s budgets.
-- **Con:** If you lose your local data copy and forget your password, you can never recover your data
-- **Con:** It is not possible to turn off encryption. This is a one way process. If you would like to move back to an unencrypted file after enabling encryption, you can use the steps in the [Backup](../backup-restore/backup.md) and [Restore](../backup-restore/restore.md) sections.
-- **Con:** There is a minor performance hit because of encoding & decoding your data whenever syncing
+- **Pro:** Je gegevens zijn volledig veilig en niemand behalve jij kan ze lezen
+- **Pro:** Als je niet wilt synchroniseren over apparaten, laat dit je nog steeds een volledig versleutelde back-up van je gegevens houden
+- **Pro:** Als je de server met iemand anders wilt delen, kun je verschillende wachtwoorden gebruiken om aparte budgetbestanden te versleutelen, en zul je geen toegang hebben tot elkaars budgetten.
+- **Con:** Als je je lokale gegevenskopie verliest en je wachtwoord vergeet, kun je nooit je gegevens herstellen
+- **Con:** Het is niet mogelijk om versleuteling uit te schakelen. Dit is een eenrichtingsproces. Als je terug wilt naar een niet-versleuteld bestand nadat je versleuteling hebt ingeschakeld, kun je de stappen in de [Backup](../backup-restore/backup.md) en [Herstel](../backup-restore/restore.md) secties volgen.
+- **Con:** Er is een kleine prestatieverlies vanwege het coderen en decoderen van je gegevens bij elke synchronisatie
 
-Note: even if you don’t have the password, you can still remove an encrypted file from the server.
+Let op: zelfs als je het wachtwoord niet hebt, kun je nog steeds een versleuteld bestand van de server verwijderen.
 
-### Setting up end-to-end encryption
+### Het instellen van end-to-end encryptie
 
-You can enable end-to-end encryption by opening a file, going into settings, and clicking "enable encryption" in the Encryption section. You will be asked to enter a password, and a key will be generated from it that will encrypted all your data from then on.
+Je kunt end-to-end encryptie inschakelen door een bestand te openen, naar instellingen te gaan en op "encryptie inschakelen" te klikken in de Encryptie sectie. Er zal gevraagd worden om een wachtwoord in te voeren, en er wordt een sleutel gegenereerd uit dit wachtwoord dat vanaf dat moment al je gegevens zal versleutelen.
 
-When downloading data on other devices, you will need to enter the same password to generate the key to be able to decrypt your data.
+Bij het downloaden van gegevens op andere apparaten, moet je hetzelfde wachtwoord invoeren om de sleutel te genereren die nodig is om je gegevens te ontsleutelen.
 
-**Do not lose this password**. You will not be able to recover your data if you forget it. If you forget it and you still have a copy of your data locally, you can reset your key which will do a [sync reset](#what-does-resetting-sync-mean) and generate a new key.
+**Verlies dit wachtwoord niet**. Je zult niet in staat zijn om je gegevens te herstellen als je het vergeet. Als je het vergeet en je hebt nog steeds een kopie van je gegevens lokaal, kun je je sleutel resetten, wat een [sync reset](#wat-betekent-het-resetten-van-sync) zal doen en een nieuwe sleutel zal genereren.
 
-## What does "resetting sync" mean?
+## Wat betekent "het resetten van sync"?
 
-There are many reasons why you might want to "start fresh" with syncing. This doesn't mean you lose any of your local data, but it means for one reason or another you want to forget about all synced data and start as if the current version of your file is the "true" version of it.
+Er zijn veel redenen waarom je misschien "opnieuw wilt beginnen" met synchroniseren. Dit betekent niet dat je al je lokale gegevens verliest, maar het betekent dat je om een of andere reden alle gesynchroniseerde gegevens wilt vergeten en wilt beginnen alsof de huidige versie van je bestand de "echte" versie ervan is.
 
-Since your data is local to each device and they all might not be up-to-date, **choose the right device** from which to reset sync. The usually won't matter, but it's important to realize that when you reset sync from one device, all un-synced changes from other devices will be reverted. Usually files are kept in sync recent enough that this isn't a problem. But if you happen to have a lot of changes that haven't been synced from one device (maybe it wasn't connected to the internet), make sure to do the sync reset from that device so it be comes the "true" version of your data.
+Omdat je gegevens lokaal zijn voor elk apparaat en ze misschien niet allemaal up-to-date zijn, **kies het juiste apparaat** van waaruit je de synchronisatie wilt resetten. Dit is meestal niet belangrijk, maar het is belangrijk om te beseffen dat wanneer je de synchronisatie reset vanaf één apparaat, alle niet-gesynchroniseerde wijzigingen van andere apparaten worden teruggedraaid. Meestal worden bestanden recent genoeg gesynchroniseerd dat dit geen probleem is. Maar als je veel wijzigingen hebt die niet zijn gesynchroniseerd vanaf één apparaat (misschien was het niet verbonden met het internet), zorg er dan voor dat je de synchronisatie reset vanaf dat apparaat zodat het de "echte" versie van je gegevens wordt.
 
-A few scenarios where you want a sync reset:
+Een paar scenario's waarin je een sync-reset wilt:
 
-- You restore from a backup. You wouldn't want to restore from a backup, only to find that it synced back up to where you were before! You want syncing to start fresh from the backup.
-- You turn on end-to-end encryption. If you do this, the server needs to forget about any unencrypted data it already knows about. This requires starting fresh.
-- In the worst case scenario, you have data that is out of sync. This should never happen, but just in case it ever does, you can manually reset sync from the file that you want to treat as the "true" version.
+- Je herstelt van een back-up. Je wilt niet herstellen van een back-up, om er vervolgens achter te komen dat het terug is gesynchroniseerd naar waar je eerder was! Je wilt dat de synchronisatie vers begint vanuit de back-up.
+- Je zet end-to-end encryptie aan. Als je dit doet, moet de server alle onversleutelde gegevens die hij al kent, vergeten. Dit vereist een frisse start.
+- In het slechtste geval zijn je gegevens niet gesynchroniseerd. Dit mag nooit gebeuren, maar voor het geval dat het ooit gebeurt, kun je handmatig de synchronisatie resetten vanuit het bestand dat je wilt behandelen als de "echte" versie.
 
-Resetting sync will clear all syncing data from the server, upload your existing data as the "true" version, and your device gets a new "sync id". All devices syncing data must have the same sync id.
+Het resetten van de synchronisatie zal alle synchronisatiegegevens van de server wissen, je bestaande gegevens uploaden als de "echte" versie, en je apparaat krijgt een nieuwe "sync id". Alle apparaten die gegevens synchroniseren moeten dezelfde sync id hebben.
 
-After resetting, all other devices are now out-of-date. What happens when you try to run them? Actual will detect that syncing has been reset and tell you that they need to be reverted. Reverting a file will delete the local data, download the latest version of it, and assign the latest sync id generated by the reset. It will happily sync from then on.
+Na het resetten zijn alle andere apparaten nu verouderd. Wat gebeurt er als je probeert ze te laten draaien? Consumeer Bewust zal detecteren dat de synchronisatie is gereset en je vertellen dat ze moeten worden teruggedraaid. Het terugdraaien van een bestand zal de lokale gegevens verwijderen, de nieuwste versie ervan downloaden, en de nieuwste sync id toewijzen die is gegenereerd door de reset. Het zal vanaf dan gelukkig synchroniseren.
 
-**Actual will always guide you through this**. It tracks the status of all your files and will notify you if something is wrong and give you steps to fix the problem. If you want to manually reset sync, you can do that in settings.
+**Consumeer Bewust zal je hier altijd doorheen leiden**. Het houdt de status van al je bestanden bij en zal je op de hoogte stellen als er iets mis is en je stappen geven om het probleem op te lossen. Als je handmatig de synchronisatie wilt resetten, kun je dat doen in instellingen.
 
-## Debugging sync issues
+## Problemen met synchronisatie oplossen
 
-When Actual detects a problem during syncing, you will see a notification with details and actions to solve the problem. Below are all the notifications you might see, with some greater detail about them.
+Wanneer Consumeer Bewust een probleem detecteert tijdens het synchroniseren, zie je een melding met details en acties om het probleem op te lossen. Hieronder staan alle meldingen die je mogelijk ziet, met wat meer detail erover.
 
-**You will rarely see these messages**, and if you do Actual will guide you through how to fix the problem. If you are still having problems, please [reach out to us](/contact)
+**Je zult deze berichten zelden zien**, en als je ze wel ziet zal Consumeer Bewust je begeleiden bij het oplossen van het probleem. Als je nog steeds problemen ondervindt, neem dan [contact met ons op](/contact)
 
-### This file is not a cloud file
+### Dit bestand is geen cloud-bestand
 
-A "cloud file" is a file that has been registered with your server and is currently syncing data. Sometimes a file hasn't been registered yet so it can't send any data to sync.
+Een "cloud-bestand" is een bestand dat is geregistreerd bij je server en momenteel gegevens synchroniseert. Soms is een bestand nog niet geregistreerd, dus het kan geen gegevens verzenden om te synchroniseren.
 
-Usually this happens when a new file is created when there is no internet connection. In that case, it creates a local file but the server doesn't know anything about it. When you are online you need to register it.
+Dit gebeurt meestal wanneer er een nieuw bestand wordt gecreëerd wanneer er geen internetverbinding is. In dat geval wordt er een lokaal bestand gecreëerd, maar de server weet er niets van. Als je online bent, moet je het registreren.
 
-### Syncing has been reset on this cloud file
+### De synchronisatie is gereset op dit cloud-bestand
 
-If you reset sync on a device, all other devices will see this message when they try to sync. When you reset sync, it deletes all syncing data from our server (but not any local data) and treats your local file as the "true" version. Because all the syncing data has been reset, other devices cannot sync anymore.
+Als je de synchronisatie reset op een apparaat, zien alle andere apparaten dit bericht wanneer ze proberen te synchroniseren. Wanneer je de synchronisatie reset, worden alle synchronisatiegegevens van onze server verwijderd (maar niet de lokale gegevens) en wordt je lokale bestand behandeld als de "echte" versie. Omdat alle synchronisatiegegevens zijn gereset, kunnen andere apparaten niet meer synchroniseren.
 
-When this happens, on other devices you will see an option to revert to the latest version. Simply reverting will get you syncing again. See [What does "resetting sync" mean?](#what-does-resetting-sync-mean)
+Als dit gebeurt, zie je op andere apparaten een optie om terug te gaan naar de laatste versie. Simpelweg terugdraaien zal je weer laten synchroniseren. Zie [Wat betekent "het resetten van sync"?](#what-does-resetting-sync-mean)
 
-### File needs upload
+### Bestand moet geupload worden
 
-Something must have gone wrong when doing a sync reset. This shouldn't ever really happen, but in the off chance that you see this message, click "Upload" to upload your data to fix it.
+Er moet iets mis zijn gegaan bij het resetten van de synchronisatie. Dit zou eigenlijk nooit moeten gebeuren, maar in het zeldzame geval dat je dit bericht ziet, klik op "Upload" om je gegevens te uploaden en het te repareren.
 
-### Your data is out of sync
+### Je gegevens zijn niet gesynchroniseerd
 
-Unfortunately, Actual detected an inconsistency in your synced data. This only happens if there is a bug in the syncing process, and you should never see this. If it ever does happen, doing a [sync reset](#what-does-resetting-sync-mean) will fix it.
+Helaas heeft Consumeer Bewust een inconsistentie in je gesynchroniseerde gegevens gedetecteerd. Dit gebeurt alleen als er een fout zit in het synchronisatieproces, en je zou dit nooit moeten zien. Mocht dit toch gebeuren, dan zal een [sync reset](#wat-betekent-het-resetten-van-sync) het probleem oplossen.
 
-### Update required
+### Update vereist
 
-While syncing, your device received data that it couldn't apply because your version of Actual is out-of-date. You need to update Actual and it will then sync successfully.
+Tijdens het synchroniseren ontving je apparaat gegevens die het niet kon toepassen omdat je versie van Consumeer Bewust verouderd is. Je moet Actual bijwerken en dan zal het succesvol synchroniseren.

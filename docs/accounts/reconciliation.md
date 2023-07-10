@@ -1,45 +1,45 @@
-# Reconciliation
+# Afstemming
 
-Keeping your Actual account ledgers consistent with your bank ledgers is important to maintain a healthy budget and know exactly how much currency is available to spend. Some choose to reconcile monthly, weekly, or even daily. Actual provides the Reconciliation tool to help manage this process.
+Het is belangrijk om je Consumeer Bewust account grootboeken consistent te houden met je bank grootboeken om een gezond budget te onderhouden en precies te weten hoeveel geld er beschikbaar is om te besteden. Sommigen kiezen ervoor om maandelijks, wekelijks, of zelfs dagelijks af te stemmen. Consumeer Bewust biedt de Afstemming tool om dit proces te beheren.
 
-## Work flow
+## Werkstroom
 
-When you reconcile, you will be comparing your bank statement, print or online, against Actual's ledger for that account. If you have made transactions against the budget that have not been verified against your account the **cleared** flag will be shown in grey. If the transaction has been moved out of the pending section (online) of your bank statement, click the grey circle to turn it green. This is a visual indication that the transaction is in both your budget and in your account statement, and they match.
+Wanneer je afstemt, zul je je bankafschrift, geprint of online, vergelijken met het grootboek van Consumeer Bewust voor die account. Als je transacties hebt gemaakt tegen het budget die nog niet zijn geverifieerd tegen je account zal de **afgehandeld** vlag in grijs worden weergegeven. Als de transactie is verplaatst uit de in behandeling sectie (online) van je bankafschrift, klik dan op de grijze cirkel om deze groen te maken. Dit is een visuele indicatie dat de transactie zowel in je budget als in je accountoverzicht staat, en dat ze overeenkomen.
 
-By clicking on the green balance in the header of the account view, two more category balances will come into view. The **cleared total** only includes transactions that have been cleared while the **uncleared total** will represent the transactions you have entered but may not have entered the bank statement yet.
+Door te klikken op het groene saldo in de header van de accountweergave, komen er twee meer categorie saldi in beeld. Het **afgehandelde totaal** omvat alleen transacties die zijn afgehandeld terwijl het **niet-afgehandelde totaal** de transacties zal vertegenwoordigen die je hebt ingevoerd maar die mogelijk nog niet zijn ingevoerd in het bankoverzicht.
 
 ![](/img/reconcile/reconcile-1.png)
 
-## Starting the Reconciliation tool
+## Het starten van de Afstemming tool
 
-Press the icon that has 3 horizontally spaced dots in the right hand corner of the account ledger and then press **Reconcile**.
+Druk op het pictogram dat 3 horizontaal gespreide punten heeft in de rechterbovenhoek van het account grootboek en druk vervolgens op **Afstemmen**.
 
-Let's imagine that we have just checked our account balance for our Ally Savings account and the current balance is $1229.18. We enter the balance we want to match into the Reconciliation tool and press **Reconcile**.
+Laten we ons voorstellen dat we net ons rekeningsaldo hebben gecontroleerd voor onze Ally Spaarrekening en het huidige saldo is $1229,18. We voeren het saldo dat we willen matchen in de Afstemming tool en drukken op **Afstemmen**.
 
 ![](/img/reconcile/reconcile-2.png)
 
-The tool will tell us exactly how much is different than the budget ledger. Now we can check the Actual ledger against the bank ledger and watch the difference come closer to 0. In this case, we're looking for transactions that add up to 262.72. This is much easier by looking at the Actual ledger and bank statement side by side to match the transactions.
+De tool zal ons precies vertellen hoeveel er anders is dan het budget grootboek. Nu kunnen we het Consumeer Bewust grootboek controleren tegen het bank grootboek en kijken hoe het verschil dichter bij 0 komt. In dit geval zoeken we naar transacties die optellen tot 262,72. Dit is veel gemakkelijker door het Consumeer Bewust grootboek en bankafschrift naast elkaar te bekijken om de transacties te matchen.
 
 ![](/img/reconcile/reconcile-3.png)
 
-When the cleared amount of the Actual account ledger and the value you entered into the Reconciliation tool are the same, the tool will let you know that you are reconciled and you can press done.
+Wanneer het afgehandelde bedrag van het Consumeer Bewust account grootboek en de waarde die je in de Afstemming tool hebt ingevoerd hetzelfde zijn, zal de tool je laten weten dat je afgestemd bent en kun je op klaar drukken.
 
 ![](/img/reconcile/reconcile-4.png)
 
-## Using the Reconciliation tool for Off-Budget Asset tracking
+## De Afstemming tool gebruiken voor Off-Budget Asset tracking
 
-Some use off-budget accounts to track values of assets such as vehicles, real estate, retirement accounts, or other investment accounts or property. The reconciliation tool is useful to update these values as well. Let's say we have a house that was valued at 358,700 but with current changes in the market it is now valued at 385,000. We go to the ledger for the house, choose the reconciliation tool, and enter 385,000 as the new value into the tool.
+Sommigen gebruiken off-budget accounts om waarden van activa bij te houden zoals voertuigen, onroerend goed, pensioenrekeningen, of andere investeringsrekeningen of eigendommen. De afstemmingstool is ook nuttig om deze waarden bij te werken. Laten we zeggen dat we een huis hebben dat gewaardeerd was op 358.700 maar met de huidige veranderingen in de markt is het nu gewaardeerd op 385.000. We gaan naar het grootboek voor het huis, kiezen de afstemmingstool, en voeren 385.000 als de nieuwe waarde in de tool.
 
 ![](/img/reconcile/reconcile-5.png)
 
-The tool tells us that we have a gain of 26,400.
+De tool vertelt ons dat we een winst van 26.400 hebben.
 
 ![](/img/reconcile/reconcile-6.png)
 
-We can enter this difference into the ledger. We used **Reconciliation** as the payee, but you can use whatever payee you'd like. By using a payee that is not used anywhere else you can find these adjustment transactions using the search features more easily.
+We kunnen dit verschil in het grootboek invoeren. We gebruikten **Afstemming** als de betaler, maar je kunt elke betaler gebruiken die je wilt. Door een betaler te gebruiken die nergens anders wordt gebruikt, kun je deze aanpassingstransacties gemakkelijker vinden met behulp van de zoekfuncties.
 
 ![](/img/reconcile/reconcile-7.png)
 
-When you finish entering the transaction, make sure you **clear** it by clicking on the grey checkmark on the right hand side. You should now have a reconciliation tool that is reporting that it is finished and you can enjoy a new higher net worth.
+Wanneer je klaar bent met het invoeren van de transactie, zorg er dan voor dat je deze **afhandelt** door te klikken op het grijze vinkje aan de rechterkant. Je zou nu een afstemmingstool moeten hebben die rapporteert dat hij klaar is en je kunt genieten van een nieuw hoger netto vermogen.
 
 ![](/img/reconcile/reconcile-8.png)

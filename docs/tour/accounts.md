@@ -1,9 +1,9 @@
-# The Account Register
+# Het Rekeningoverzicht
 
 ![](/img/accounts/budget-account-register.png)
 
-### Cleared/Uncleared Account Balance
+### Verrekend/Niet-verrekend Rekeningsaldo
 
-When viewing your account in Actual, it is possible to show the Cleared & Uncleared totals of that account, to do this, hover over the account balance and an expando icon will appear, click that and your cleared and uncleared balances will appear.
+Bij het bekijken van uw rekening in Consumeer Bewust is het mogelijk om de verrekende en niet-verrekende totalen van die rekening te tonen. Om dit te doen, beweeg over het rekeningsaldo en er verschijnt een uitklapicoon, klik hierop en uw verrekende en niet-verrekende saldi verschijnen.
 
 ![](/img/accounts/cleared-uncleared-expand.png)

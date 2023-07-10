@@ -1,18 +1,18 @@
-# Schedules
+# Schema's
 
-[rules]: ./rules
+[regels]: ./rules
 
-## Creating a schedule
+## Een schema maken
 
-Schedules can be used to enter anticipated transactions early. Some of the available options to tailor schedules to your needs are:
+Schema's kunnen worden gebruikt om verwachte transacties vroegtijdig in te voeren. Enkele van de beschikbare opties om schema's aan uw behoeften aan te passen zijn:
 
-1.  Set to be recurring or only entered once
-2.  Set to be automatically entered into the account register or choose to manually approve entries
-3.  Options for recurring entries for multiple specific days of the month.
-    1. A single schedule can be created for a Cell phone plan that has multiple users and different payment cycles for each phone. If you have 3 cell phones that all get paid on different days of the month, each day can be defined in a single schedule for each phone.
-4.  Options to determine frequency of payments, such as every month, every 2 months, every 2 years, etc.
+1.  Stel in dat ze terugkerend zijn of slechts één keer worden ingevoerd
+2.  Stel in dat ze automatisch in het accountregister worden ingevoerd of kies ervoor om invoeren handmatig goed te keuren
+3.  Opties voor terugkerende invoeren op meerdere specifieke dagen van de maand.
+  1. Een enkel schema kan worden gemaakt voor een mobiel abonnement dat meerdere gebruikers heeft en verschillende betalingscycli voor elke telefoon. Als je 3 mobiele telefoons hebt die allemaal op verschillende dagen van de maand worden betaald, kan elke dag worden gedefinieerd in een enkel schema voor elke telefoon.
+4.  Opties om de frequentie van betalingen te bepalen, zoals elke maand, elke 2 maanden, elke 2 jaar, etc.
 
-Once a schedule is started, Actual will search the transaction history for entries that match the schedule, select the matches, and the option to link those transactions to the schedule is given. You can click to the **Find missing transactions** button to have Actual look for matches.
+Zodra een schema is gestart, zoekt Consumeer Bewust in de transactiegeschiedenis naar invoeren die overeenkomen met het schema, selecteert de overeenkomsten, en de optie om die transacties aan het schema te koppelen wordt gegeven. Je kunt op de **Zoek ontbrekende transacties** knop klikken om Consumeer Bewust te laten zoeken naar overeenkomsten.
 
 ![](/img/schedules/schedules-1.png)
 
@@ -20,44 +20,44 @@ Once a schedule is started, Actual will search the transaction history for entri
 
 ![](/img/schedules/schedules-7.png)
 
-## How Actual finds schedules
+## Hoe Consumeer Bewust schema's vindt
 
-In addition to the requirements you have specified when creating a schedule, a transaction must also meet the date requirements to be matched to a schedule. Transactions must be dated within 2 days before or after a schedule.
+Naast de vereisten die u hebt opgegeven bij het maken van een schema, moet een transactie ook aan de datavereisten voldoen om aan een schema te worden gekoppeld. Transacties moeten worden gedateerd binnen 2 dagen voor of na een schema.
 
-For example: You have a schedule set up for your power bill for the 15th of every month. Today is the 10th of the month and you can see an upcoming scheduled transaction of your bill in Actual. The utility company decided to withdraw the funds on the 10th this month, so you post the transaction to Actual early and change the date of the transaction to match your bank statement. A problem just occurred because now the posted transaction is outside of the 2 day window to match scheduled transactions. You'll see your bill posted in the Actual account ledger but you'll also see an upcoming transaction for the power bill on the 15th even though you just entered it. This is the expected behavior when using schedules.
+Bijvoorbeeld: Je hebt een schema ingesteld voor je elektriciteitsrekening op de 15e van elke maand. Vandaag is het de 10e van de maand en je kunt een aanstaande geplande transactie van je rekening in Consumeer Bewust zien. Het nutsbedrijf besloot deze maand de fondsen op de 10e op te nemen, dus je boekt de transactie vroegtijdig in Consumeer Bewust en wijzigt de datum van de transactie om overeen te komen met je bankafschrift. Er is nu een probleem ontstaan omdat de geboekte transactie buiten het venster van 2 dagen valt om geplande transacties te matchen. Je zult je rekening geboekt zien in het Consumeer Bewust accountregister maar je zult ook een aankomende transactie voor de elektriciteitsrekening op de 15e zien, ook al heb je die net ingevoerd. Dit is het verwachte gedrag bij het gebruik van schema's.
 
-You can resolve this issue in one of two ways.
+Je kunt dit probleem oplossen op één van de twee manieren.
 
-1. Skip the next schedule by selecting the upcoming scheduled transaction and choosing the "Skip Scheduled Date" from the menu options.
-2. Accept the date doesn't match and leave it as is so the schedule doesn't prompt a second transaction.
+1. Sla het volgende schema over door de aankomende geplande transactie te selecteren en "Geplande datum overslaan" te kiezen uit de menuopties.
+2. Accepteer dat de datum niet overeenkomt en laat het zo zodat het schema geen tweede transactie vraagt.
 
-## Schedule options that are not supported
+## Schema-opties die niet worden ondersteund
 
-1. Schedules cannot be made that adjust based on the last non-weekend day (Monday-Friday) of a month.
-2. Schedules do not take into account holidays.
+1. Schema's kunnen niet worden gemaakt die zich aanpassen op basis van de laatste niet-weekenddag (maandag-vrijdag) van een maand.
+2. Schema's houden geen rekening met feestdagen.
 
-## How to use rules with Schedules
+## Hoe regels te gebruiken met schema's
 
-Many times it's desired to add notes to the scheduled transactions or to assign categories automatically. This is done with the [Rules][rules] tool.
+Vaak is het wenselijk om notities toe te voegen aan de geplande transacties of om categorieën automatisch toe te wijzen. Dit wordt gedaan met het [Regels][regels] hulpmiddel.
 
-Create a schedule.
+Maak een schema.
 
 ![](/img/schedules/schedules-2.png)
 
-You can click on it and a new button has now appeared called **Edit as rule**.
+Je kunt erop klikken en er is nu een nieuwe knop verschenen met de naam **Bewerken als regel**.
 
 ![](/img/schedules/schedules-3.png)
 
-Click on **Edit as Rule** to further customize the automatic entry.
+Klik op **Bewerken als regel** om de automatische invoer verder aan te passen.
 
 ![](/img/schedules/schedules-4.png)
 
-By clicking the **+** arrow on in the **Then apply these actions** area, you can define the category this schedule should be assigned against as well as any notes you might want to include.
+Door op de **+** pijl in het **Pas dan deze acties toe** gebied te klikken, kun je de categorie definiëren waartegen dit schema moet worden toegewezen, evenals eventuele notities die je misschien wilt toevoegen.
 
 ![](/img/schedules/schedules-5.png)
 
-You can apply this newly made rule to any other of the linked transactions. Select all of the transactions from the rules dialog and press **Apply actions**.
+Je kunt deze nieuw gemaakte regel toepassen op elke andere van de gekoppelde transacties. Selecteer alle transacties uit het regeldialoogvenster en druk op **Acties toepassen**.
 
 ![](/img/schedules/schedules-8.png)
 
-Save the rule and any time this scheduled transaction gets entered into the register it can be automatically categorized with a helpful note.
+Sla de regel op en elke keer dat deze geplande transactie in het register wordt ingevoerd, kan deze automatisch worden gecategoriseerd met een nuttige notitie.

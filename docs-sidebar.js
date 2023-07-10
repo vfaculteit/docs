@@ -26,88 +26,14 @@ const unavailable = title => ({
 const sidebars = {
   docs: [
     'index',
-    'releases',
     {
       type: 'category',
-      label: 'Contributing',
-      link: {
-        type: 'doc',
-        id: 'contributing/index',
-      },
-      collapsed: true,
-      items: [
-        {
-          type: 'link',
-          label: 'Open Bug Reports',
-          href: 'https://github.com/actualbudget/actual/issues',
-        },
-        {
-          type: 'link',
-          label: 'Feature Requests',
-          href: 'https://github.com/actualbudget/actual/issues?q=label%3A%22needs+votes%22+sort%3Areactions-%2B1-desc+',
-        },
-        {
-          type: 'category',
-          label: 'The Actual Project Structure',
-          link: {
-            type: 'doc',
-            id: 'contributing/project-details/index',
-          },
-          items: [
-            'contributing/project-details/database',
-            'contributing/project-details/architecture',
-          ],
-        },
-        'contributing/preview-builds',
-        'contributing/releasing',
-        'contributing/windows',
-        {
-          type: 'category',
-          label: 'Project Leadership',
-          collapsible: false,
-          items: ['contributing/leadership/funding'],
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Getting Started',
+      label: 'Beginnen',
       collapsible: false,
       items: [
         {
           type: 'category',
-          label: 'Installing Actual',
-          link: {
-            type: 'doc',
-            id: 'install/index',
-          },
-          items: [
-            {
-              type: 'category',
-              label: 'On Your Own Machine',
-              collapsible: false,
-              items: ['install/local', 'install/docker'],
-            },
-            {
-              type: 'category',
-              label: 'In the Cloud',
-              collapsible: false,
-              items: ['install/pikapods', 'install/fly'],
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Configuring the Server',
-          link: {
-            type: 'doc',
-            id: 'config/index',
-          },
-          items: ['config/https'],
-        },
-        {
-          type: 'category',
-          label: 'A Tour of Actual',
+          label: 'Een overzicht van Consumeer Bewust',
           link: {
             type: 'doc',
             id: 'tour/index',
@@ -125,37 +51,16 @@ const sidebars = {
         'getting-started/tipstricks',
         'getting-started/sync',
         'getting-started/managefiles',
-        {
-          type: 'category',
-          label: 'Migration',
-          link: {
-            type: 'doc',
-            id: 'migration/index',
-          },
-          items: [
-            'migration/simple-sync',
-            {
-              type: 'category',
-              label: 'Migrating From Other Apps',
-              collapsible: false,
-              items: [
-                'migration/actual-import',
-                'migration/ynab4',
-                'migration/nynab',
-              ],
-            },
-          ],
-        },
       ],
     },
     {
       type: 'category',
-      label: 'Using Actual',
+      label: 'Consumeer Bewust gebruiken',
       collapsible: false,
       items: [
         {
           type: 'category',
-          label: 'Budgeting',
+          label: 'Budgeteren',
           collapsed: true,
           link: {
             type: 'doc',
@@ -166,7 +71,7 @@ const sidebars = {
             'budgeting/categories',
             {
               type: 'category',
-              label: 'Rules',
+              label: 'Regels',
               collapsed: true,
               link: {
                 type: 'doc',
@@ -183,7 +88,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Accounts & Transactions',
+          label: 'Rekeningen & Transacties',
           collapsed: true,
           link: {
             type: 'doc',
@@ -204,72 +109,9 @@ const sidebars = {
           collapsed: true,
           items: ['backup-restore/backup', 'backup-restore/restore'],
         },
-        {
-          type: 'category',
-          label: 'API',
-          link: { type: 'doc', id: 'api/index' },
-          items: [
-            'api/reference',
-            {
-              type: 'category',
-              label: 'ActualQL',
-              collapsed: true,
-              link: {
-                type: 'doc',
-                id: 'api/actual-ql/index',
-              },
-              items: ['api/actual-ql/functions', 'api/actual-ql/examples'],
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Advanced',
-          collapsed: true,
-          link: {
-            type: 'doc',
-            id: 'advanced/index',
-          },
-          items: [
-            'advanced/bank-sync',
-            {
-              type: 'category',
-              label: 'Scripts',
-              collapsible: false,
-              items: ['advanced/scripts/modify-transfers'],
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Experimental features',
-          collapsed: true,
-          items: [
-            'experimental/goal-templates',
-            'experimental/monthly-cleanup',
-            'experimental/report-budget',
-          ],
-        },
       ],
     },
-    {
-      type: 'category',
-      label: 'Help & Support',
-      collapsible: false,
-      items: [
-        'faq',
-        {
-          type: 'category',
-          label: 'Troubleshooting',
-          collapsed: true,
-          items: [
-            'troubleshooting/server',
-            'troubleshooting/shared-array-buffer',
-            'troubleshooting/edge-browser',
-          ],
-        },
-      ],
-    },
+    'faq',
   ],
 };
 module.exports = sidebars;

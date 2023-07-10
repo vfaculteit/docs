@@ -1,5 +1,5 @@
-# The Budget
+# Het Budget
 
-## The Budget
+## Het Budget
 
 ![](/img/using-actual/budget.png)

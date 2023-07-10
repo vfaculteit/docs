@@ -1,13 +1,13 @@
-# The File List
+# De Bestandenlijst
 
-The file list in Actual is where you will find a list of all your available budget files.
-
-![](/img/using-actual/file-list.png)
-
-Each budget has a status, for example you can see that the budget file is Syncing to the Actual Server as it has a Syncing status on the file entry.
-
-If the budget didn't have a Syncing status next to it's name, this would be a local only budget, this means that none of the changes you make would be available on any other device other than the one your viewing Actual on right now.
+De bestandenlijst in Consumeer Bewust is waar u een lijst vindt van al uw beschikbare budgetbestanden.
 
 ![](/img/using-actual/file-list.png)
 
-It is possible to create a new budget at any time using the **Create new file** button.
+Elk budget heeft een status, bijvoorbeeld, u kunt zien dat het budgetbestand synchroniseert met de Consumeer Bewust-server omdat er een synchronisatiestatus op het bestandsitem staat.
+
+Als het budget geen synchronisatiestatus naast de naam had, zou dit een alleen-lokaal budget zijn, dit betekent dat geen van de wijzigingen die u aanbrengt beschikbaar zou zijn op enig ander apparaat dan het apparaat waarop u op dit moment Consumeer Bewust bekijkt.
+
+![](/img/using-actual/file-list.png)
+
+Het is mogelijk om op elk moment een nieuw budget te maken met de **Nieuw bestand aanmaken** knop.

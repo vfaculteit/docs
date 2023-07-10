@@ -1,13 +1,11 @@
-# Reports
+# Rapporten
 
-Currently Actual comes with two reports: **net worth** and **cash flow**. These are valuable reports, but in the future many more report types will be available.
+Momenteel komt Consumeer Bewust met twee rapporten: **netto waarde** en **cashflow**. Dit zijn waardevolle rapporten, maar in de toekomst zullen er veel meer soorten rapporten beschikbaar zijn.
 
-There will also be a way to create custom reports. Subscribe to [the feature request for custom reports](https://github.com/actualbudget/actual/issues/730) to receive updates.
+## Netto waarde
 
-## Net worth
+Netto waarde toont het saldo van alle rekeningen in de loop van de tijd. Je netto waarde is al je contant geld en bezittingen min de schulden die je verschuldigd bent.
 
-Net worth shows the balance of all accounts over time. Your net worth is all of your cash and assets minus and debts you owe.
+## Cashflow
 
-## Cash flow
-
-Cash flow shows your spending over time. It only looks at budgeted accounts and shows their balance over time, and includes separate income and expense visualizations. It's a quick way to see how your income and expenses effected your available money over time.
+Cashflow toont je uitgaven in de loop van de tijd. Het kijkt alleen naar gebudgetteerde rekeningen en toont hun saldo in de loop van de tijd, en bevat aparte inkomsten- en uitgavengrafieken. Het is een snelle manier om te zien hoe je inkomsten en uitgaven je beschikbare geld in de loop van de tijd hebben beïnvloed.

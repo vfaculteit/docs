@@ -1,89 +1,89 @@
-# Categories
+# Categorieën
 
-You can manage your categories in the budget page. Actual supports both expense and income categories.
+Je kunt je categorieën beheren op de budgetpagina. Consumeer Bewust ondersteunt zowel uitgave- als inkomstencategorieën.
 
-## Add a category
+## Een categorie toevoegen
 
-1. Hover over the category group and press the down arrow
+1. Ga met de muis over de categoriegroep en druk op de pijl omlaag
 
 ![](/img/categories/CategoryGroupRename.png)
 
-2. Select **Add category**
+2. Selecteer **Categorie toevoegen**
 
 ![](/img/categories/CategoryGroupAddCategory.png)
 
-## Adding a category group
+## Een categoriegroep toevoegen
 
-Scroll to the bottom of the budget sheet and select add group
+Scroll naar de onderkant van het budgetblad en selecteer groep toevoegen
 
 ![](/img/categories/AddCategoryGroup.png)
 
-Only one income group can ever exist and it cannot be deleted.
+Er kan slechts één inkomstengroep bestaan en deze kan niet worden verwijderd.
 
-## Renaming or delete a category
+## Een categorie hernoemen of verwijderen
 
-1. Hover over the category and press the down arrow
+1. Ga met de muis over de categorie en druk op de pijl omlaag
 
 ![](/img/categories/RenameCategoryDropDown.png)
 
-2. Select **Rename** or **Delete** from the menu
+2. Selecteer **Hernoemen** of **Verwijderen** uit het menu
 
 ![](/img/categories/RenameCategoryOptions.png)
 
-Categories are organized into groups and same actions can be performed on groups.
+Categorieën zijn georganiseerd in groepen en dezelfde acties kunnen worden uitgevoerd op groepen.
 
-## Merging categories
+## Categorieën samenvoegen
 
-Let's say you have two categories that are the same but you want to delete one.
+Stel dat je twee categorieën hebt die hetzelfde zijn, maar je wilt er een verwijderen.
 
 ![](/img/categories/DuplicatedCategories.png)
 
-Hover over the category and select the drop down that appears and select `Delete`
+Ga met de muis over de categorie en selecteer de dropdown die verschijnt en selecteer `Verwijderen`
 
 ![](/img/categories/RenameCategoryOptions.png)
 
-If the category your deleting has a positive balance **OR** has been used for existing transactions you will be presented with a box to select which category the balance and or transactions should be moved to.
+Als de categorie die je verwijdert een positief saldo heeft **OF** is gebruikt voor bestaande transacties, krijg je een venster om te selecteren naar welke categorie het saldo en/of de transacties moeten worden verplaatst.
 
 ![](/img/categories/CategoryDeleteConfirmation.png)
 
-In our example, we want to use `Food` which will take over from `Foods` once you are happy, click `Delete`
+In ons voorbeeld willen we `Eten` gebruiken, die de plaats van `Voedsel` overneemt. Als je tevreden bent, klik op `Verwijderen`
 
 ![](/img/categories/CategoryDeleteConfirmationNewCat.png)
 
-You can see in the budget that our categories have now been successfully merged and the positive balance moved to the new category.
+Je kunt zien in het budget dat onze categorieën nu succesvol zijn samengevoegd en het positieve saldo is verplaatst naar de nieuwe categorie.
 
 ![](/img/categories/CategoriesMerged.png)
 
-## Category Notes
+## Categorie notities
 
-It is possible to add notes to Categories, to do this hover over the category that you would like to add a note to, a paper icon will appear.
+Het is mogelijk om notities toe te voegen aan categorieën. Ga met de muis over de categorie waaraan je een notitie wilt toevoegen, er verschijnt een papier-icoon.
 
 ![](/static/img/categories/CategoryGroupRename.png)
 
-Click the paper icon and type in your note.
+Klik op het papier-icoon en typ je notitie.
 
 ![](/static/img/categories/CategoryAddNote.png)
 
-## Viewing Category Notes
+## Notities van categorieën bekijken
 
-Once a Category has been given a note it is possible to view it in one of two way.
+Eens een categorie een notitie heeft, kan je deze op twee manieren bekijken.
 
-1. Hover over the paper icon on the category and the note contents will appear for you to view.
+1. Ga met de muis over het papier-icoon op de categorie en de inhoud van de notitie zal verschijnen om te bekijken.
 
 ![](/static/img/categories/CategoryViewNoteHover.png)
 
-2. Click the paper icon, this will open the edit box where you can see the note content and also edit the note should you wish.
+2. Klik op het papier-icoon, dit opent het bewerkingsvenster waar je de inhoud van de notitie kan zien en de notitie kan bewerken als je dat wenst.
 
 ![](/static/img/categories/CategoryEditNote.png)
 
-## Tips for new users
+## Tips voor nieuwe gebruikers
 
-If you don't have much experience tracking your finances yet, we recommend starting simple. For this reason, Actual only comes with a few basic categories by default. Don't worry about tracking things super closely. Tracking a few basic areas of your life will still give you profound insights on your spending.
+Als je nog niet veel ervaring hebt met het bijhouden van je financiën, raden we aan om eenvoudig te beginnen. Daarom komt Consumeer Bewust standaard alleen met een paar basiscategorieën. Maak je geen zorgen over het heel nauwkeurig bijhouden van dingen. Het bijhouden van een paar basisgebieden van je leven geeft je toch inzicht in je uitgaven.
 
-The basic categories are:
+De basis categorieën zijn:
 
-- **Food:** all grocery and restaurant spending.
-- **General:** everything else (you probably want to split this up over time, but having a general category is nice for a lot of miscellaneous expenses).
-- **Bills:** all bills that charge that same amount each month. Some people like to split this up too, but we think reports will eventually make this clearer.
-- **Bills (Flexible):** All bills that charge various amounts (power, water, bi-monthly bills, etc).
-- **Savings:** any transfers to savings accounts. These are treated as expenses because it's moving money out of the budget, but if you add your savings account on the budget you'll want to budget all that money accordingly instead.
+- **Voeding:** alle uitgaven voor boodschappen en restaurants.
+- **Algemeen:** alles anders (je wilt dit waarschijnlijk na verloop van tijd opsplitsen, maar het hebben van een algemene categorie is handig voor veel verschillende uitgaven).
+- **Rekeningen:** alle rekeningen die elke maand hetzelfde bedrag in rekening brengen. Sommige mensen vinden het prettig om dit ook op te splitsen, maar we denken dat rapporten dit uiteindelijk duidelijker zullen maken.
+- **Flexibele rekeningen:** Alle rekeningen die verschillende bedragen in rekening brengen (elektriciteit, water, tweemaandelijkse rekeningen, etc).
+- **Sparen:** alle overboekingen naar spaarrekeningen. Deze worden behandeld als uitgaven omdat het geld uit het budget haalt, maar als je je spaarrekening aan het budget toevoegt, wil je al dat geld dienovereenkomstig budgetteren.
