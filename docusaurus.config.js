@@ -17,7 +17,7 @@ module.exports = {
   title: 'Consumeer Bewust',
   tagline: 'Dinosaurs are cool',
   url: 'https://docs.consumeer-bewust.vastgoedfaculteit.be',
-  baseUrl: 'https://docs.financetracker-beta.vastgoedfaculteit.be/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
